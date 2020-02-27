@@ -1,0 +1,58 @@
+[
+{
+  "model": "teams.team",
+  "pk": 1,
+  "fields": {
+    "teamName": "Pique Blinders",
+    "manager": 3,
+    "teamPoints": 0,
+    "goalkeepers": [
+      168
+    ],
+    "defenders": [
+      164,
+      181,
+      204,
+      258
+    ],
+    "midfielders": [
+      171,
+      192,
+      215,
+      540
+    ],
+    "forwards": [
+      11,
+      210
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 2,
+  "fields": {
+    "teamName": "Oli FC",
+    "manager": 1,
+    "teamPoints": 0,
+    "goalkeepers": [
+      235
+    ],
+    "defenders": [
+      86,
+      183,
+      226,
+      331
+    ],
+    "midfielders": [
+      133,
+      191,
+      214,
+      516
+    ],
+    "forwards": [
+      12,
+      233
+    ]
+  }
+}
+]
