@@ -26,7 +26,6 @@ async function handleRequest() {
       }
     }
   })
-  // return res.json(playerNames)
   const data = JSON.stringify(playerNames, null, 2)
   fs.writeFileSync('players-seed.json', data)
 }

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'teams',
     'players',
+    'leagues',
     'jwt_auth',
     'corsheaders',
 ]
@@ -50,7 +51,7 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware'
 ]
 
 ROOT_URLCONF = 'project.urls'
@@ -134,7 +135,7 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'jwt_auth.authentication.JWTAuthentication',
         'rest_framework.authentication.BasicAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.SessionAuthentication'
     ],
 }
 

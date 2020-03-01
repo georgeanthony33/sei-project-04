@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import 'bulma'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Home from './components/common/Home'
+import UserProfile from './components/auth/UserProfile'
+import TeamShow from './components/teams/TeamShow'
 
-export default App;
+const App = () => (
+  <BrowserRouter>
+    <>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/profile/:id" component={UserProfile} />
+        <Route exact path="/teams/:id" component={TeamShow} />
+      </Switch>
+    </>
+  </BrowserRouter>
+)
+
+export default App

@@ -9,7 +9,7 @@
       "club": 1,
       "position": 2,
       "cost": 5.1,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 26
     }
   },
@@ -23,7 +23,7 @@
       "club": 1,
       "position": 2,
       "cost": 5.4,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 24
     }
   },
@@ -37,7 +37,7 @@
       "club": 1,
       "position": 2,
       "cost": 5.2,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 35
     }
   },
@@ -149,7 +149,7 @@
       "club": 1,
       "position": 4,
       "cost": 10.9,
-      "eventPoints": 13,
+      "eventPoints": 0,
       "totalPoints": 150
     }
   },
@@ -177,7 +177,7 @@
       "club": 1,
       "position": 4,
       "cost": 4.3,
-      "eventPoints": 7,
+      "eventPoints": 0,
       "totalPoints": 11
     }
   },
@@ -191,7 +191,7 @@
       "club": 1,
       "position": 1,
       "cost": 5,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 97
     }
   },
@@ -205,7 +205,7 @@
       "club": 1,
       "position": 3,
       "cost": 7.2,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 47
     }
   },
@@ -233,7 +233,7 @@
       "club": 1,
       "position": 3,
       "cost": 5.1,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 44
     }
   },
@@ -247,7 +247,7 @@
       "club": 1,
       "position": 3,
       "cost": 4.7,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 44
     }
   },
@@ -275,7 +275,7 @@
       "club": 1,
       "position": 3,
       "cost": 4.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 44
     }
   },
@@ -289,7 +289,7 @@
       "club": 1,
       "position": 2,
       "cost": 5.7,
-      "eventPoints": 4,
+      "eventPoints": 0,
       "totalPoints": 72
     }
   },
@@ -331,7 +331,7 @@
       "club": 1,
       "position": 3,
       "cost": 5.2,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 32
     }
   },
@@ -359,7 +359,7 @@
       "club": 1,
       "position": 3,
       "cost": 9.2,
-      "eventPoints": 5,
+      "eventPoints": 0,
       "totalPoints": 85
     }
   },
@@ -428,8 +428,8 @@
       "secondName": "Saka",
       "club": 1,
       "position": 3,
-      "cost": 4.5,
-      "eventPoints": 7,
+      "cost": 4.6,
+      "eventPoints": 0,
       "totalPoints": 40
     }
   },
@@ -527,7 +527,7 @@
       "club": 2,
       "position": 2,
       "cost": 4.4,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 15
     }
   },
@@ -569,7 +569,7 @@
       "club": 2,
       "position": 3,
       "cost": 5.7,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 51
     }
   },
@@ -582,8 +582,8 @@
       "secondName": "Grealish",
       "club": 2,
       "position": 3,
-      "cost": 6.7,
-      "eventPoints": 1,
+      "cost": 6.6,
+      "eventPoints": 0,
       "totalPoints": 116
     }
   },
@@ -597,7 +597,7 @@
       "club": 2,
       "position": 3,
       "cost": 5.5,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 78
     }
   },
@@ -723,7 +723,7 @@
       "club": 2,
       "position": 2,
       "cost": 4.4,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 60
     }
   },
@@ -765,7 +765,7 @@
       "club": 2,
       "position": 2,
       "cost": 4.5,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 56
     }
   },
@@ -821,7 +821,7 @@
       "club": 2,
       "position": 3,
       "cost": 5.2,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 58
     }
   },
@@ -835,7 +835,7 @@
       "club": 2,
       "position": 3,
       "cost": 4.4,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 69
     }
   },
@@ -863,7 +863,7 @@
       "club": 2,
       "position": 3,
       "cost": 4.4,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 33
     }
   },
@@ -891,7 +891,7 @@
       "club": 2,
       "position": 1,
       "cost": 4.5,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 18
     }
   },
@@ -904,8 +904,8 @@
       "secondName": "Samatta",
       "club": 2,
       "position": 4,
-      "cost": 6,
-      "eventPoints": 2,
+      "cost": 5.9,
+      "eventPoints": 0,
       "totalPoints": 12
     }
   },
@@ -919,7 +919,7 @@
       "club": 2,
       "position": 4,
       "cost": 5.5,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 2
     }
   },
@@ -933,8 +933,8 @@
       "club": 3,
       "position": 2,
       "cost": 5,
-      "eventPoints": 0,
-      "totalPoints": 44
+      "eventPoints": 1,
+      "totalPoints": 45
     }
   },
   {
@@ -947,8 +947,8 @@
       "club": 3,
       "position": 2,
       "cost": 4.8,
-      "eventPoints": 0,
-      "totalPoints": 65
+      "eventPoints": 1,
+      "totalPoints": 66
     }
   },
   {
@@ -1059,8 +1059,8 @@
       "club": 3,
       "position": 4,
       "cost": 7.4,
-      "eventPoints": 2,
-      "totalPoints": 89
+      "eventPoints": 1,
+      "totalPoints": 90
     }
   },
   {
@@ -1073,8 +1073,8 @@
       "club": 3,
       "position": 4,
       "cost": 6.1,
-      "eventPoints": 2,
-      "totalPoints": 61
+      "eventPoints": 8,
+      "totalPoints": 69
     }
   },
   {
@@ -1087,7 +1087,7 @@
       "club": 3,
       "position": 4,
       "cost": 5.2,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 40
     }
   },
@@ -1157,8 +1157,8 @@
       "club": 3,
       "position": 3,
       "cost": 6.8,
-      "eventPoints": 1,
-      "totalPoints": 66
+      "eventPoints": 5,
+      "totalPoints": 71
     }
   },
   {
@@ -1186,7 +1186,7 @@
       "position": 3,
       "cost": 5.9,
       "eventPoints": 1,
-      "totalPoints": 5
+      "totalPoints": 6
     }
   },
   {
@@ -1213,8 +1213,8 @@
       "club": 3,
       "position": 3,
       "cost": 5,
-      "eventPoints": 0,
-      "totalPoints": 28
+      "eventPoints": 2,
+      "totalPoints": 30
     }
   },
   {
@@ -1227,7 +1227,7 @@
       "club": 3,
       "position": 3,
       "cost": 4.7,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 6
     }
   },
@@ -1241,8 +1241,8 @@
       "club": 3,
       "position": 3,
       "cost": 4.9,
-      "eventPoints": 2,
-      "totalPoints": 37
+      "eventPoints": 1,
+      "totalPoints": 38
     }
   },
   {
@@ -1255,8 +1255,8 @@
       "club": 3,
       "position": 3,
       "cost": 4.8,
-      "eventPoints": 0,
-      "totalPoints": 36
+      "eventPoints": 7,
+      "totalPoints": 43
     }
   },
   {
@@ -1269,8 +1269,8 @@
       "club": 3,
       "position": 2,
       "cost": 4.3,
-      "eventPoints": 1,
-      "totalPoints": 24
+      "eventPoints": 5,
+      "totalPoints": 29
     }
   },
   {
@@ -1284,7 +1284,7 @@
       "position": 3,
       "cost": 5,
       "eventPoints": 2,
-      "totalPoints": 56
+      "totalPoints": 58
     }
   },
   {
@@ -1311,8 +1311,8 @@
       "club": 3,
       "position": 1,
       "cost": 4.6,
-      "eventPoints": 3,
-      "totalPoints": 92
+      "eventPoints": 2,
+      "totalPoints": 94
     }
   },
   {
@@ -1325,7 +1325,7 @@
       "club": 3,
       "position": 3,
       "cost": 5.8,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 84
     }
   },
@@ -1381,7 +1381,7 @@
       "club": 4,
       "position": 2,
       "cost": 4.8,
-      "eventPoints": 3,
+      "eventPoints": 0,
       "totalPoints": 36
     }
   },
@@ -1395,8 +1395,8 @@
       "club": 4,
       "position": 2,
       "cost": 4.4,
-      "eventPoints": 0,
-      "totalPoints": 54
+      "eventPoints": 1,
+      "totalPoints": 55
     }
   },
   {
@@ -1409,7 +1409,7 @@
       "club": 4,
       "position": 2,
       "cost": 4.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 18
     }
   },
@@ -1452,7 +1452,7 @@
       "position": 2,
       "cost": 4.8,
       "eventPoints": 2,
-      "totalPoints": 83
+      "totalPoints": 85
     }
   },
   {
@@ -1479,8 +1479,8 @@
       "club": 4,
       "position": 4,
       "cost": 5.4,
-      "eventPoints": 2,
-      "totalPoints": 28
+      "eventPoints": 1,
+      "totalPoints": 29
     }
   },
   {
@@ -1522,7 +1522,7 @@
       "position": 1,
       "cost": 4.8,
       "eventPoints": 2,
-      "totalPoints": 93
+      "totalPoints": 95
     }
   },
   {
@@ -1563,8 +1563,8 @@
       "club": 4,
       "position": 3,
       "cost": 5.8,
-      "eventPoints": 0,
-      "totalPoints": 24
+      "eventPoints": 1,
+      "totalPoints": 25
     }
   },
   {
@@ -1605,8 +1605,8 @@
       "club": 4,
       "position": 3,
       "cost": 5,
-      "eventPoints": 1,
-      "totalPoints": 14
+      "eventPoints": 2,
+      "totalPoints": 16
     }
   },
   {
@@ -1619,8 +1619,8 @@
       "club": 4,
       "position": 3,
       "cost": 4.8,
-      "eventPoints": 1,
-      "totalPoints": 59
+      "eventPoints": 2,
+      "totalPoints": 61
     }
   },
   {
@@ -1633,8 +1633,8 @@
       "club": 4,
       "position": 3,
       "cost": 4.6,
-      "eventPoints": 0,
-      "totalPoints": 24
+      "eventPoints": 3,
+      "totalPoints": 27
     }
   },
   {
@@ -1675,8 +1675,8 @@
       "club": 4,
       "position": 3,
       "cost": 5.8,
-      "eventPoints": 1,
-      "totalPoints": 70
+      "eventPoints": 2,
+      "totalPoints": 72
     }
   },
   {
@@ -1690,7 +1690,7 @@
       "position": 2,
       "cost": 4.5,
       "eventPoints": 2,
-      "totalPoints": 50
+      "totalPoints": 52
     }
   },
   {
@@ -1703,8 +1703,8 @@
       "club": 4,
       "position": 2,
       "cost": 4.4,
-      "eventPoints": 7,
-      "totalPoints": 61
+      "eventPoints": 2,
+      "totalPoints": 63
     }
   },
   {
@@ -1717,8 +1717,8 @@
       "club": 4,
       "position": 4,
       "cost": 5.8,
-      "eventPoints": 9,
-      "totalPoints": 97
+      "eventPoints": 2,
+      "totalPoints": 99
     }
   },
   {
@@ -1732,7 +1732,7 @@
       "position": 3,
       "cost": 4.8,
       "eventPoints": 2,
-      "totalPoints": 59
+      "totalPoints": 61
     }
   },
   {
@@ -1745,7 +1745,7 @@
       "club": 4,
       "position": 4,
       "cost": 4.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 41
     }
   },
@@ -1773,8 +1773,8 @@
       "club": 4,
       "position": 3,
       "cost": 4.5,
-      "eventPoints": 0,
-      "totalPoints": 32
+      "eventPoints": 1,
+      "totalPoints": 33
     }
   },
   {
@@ -1787,8 +1787,8 @@
       "club": 4,
       "position": 2,
       "cost": 4,
-      "eventPoints": 2,
-      "totalPoints": 8
+      "eventPoints": -1,
+      "totalPoints": 7
     }
   },
   {
@@ -1830,7 +1830,7 @@
       "position": 2,
       "cost": 5,
       "eventPoints": 5,
-      "totalPoints": 80
+      "totalPoints": 85
     }
   },
   {
@@ -1844,7 +1844,7 @@
       "position": 2,
       "cost": 5.1,
       "eventPoints": 6,
-      "totalPoints": 94
+      "totalPoints": 100
     }
   },
   {
@@ -1871,8 +1871,8 @@
       "club": 5,
       "position": 2,
       "cost": 4.3,
-      "eventPoints": 10,
-      "totalPoints": 41
+      "eventPoints": 5,
+      "totalPoints": 46
     }
   },
   {
@@ -1884,9 +1884,9 @@
       "secondName": "Taylor",
       "club": 5,
       "position": 2,
-      "cost": 4.2,
+      "cost": 4.3,
       "eventPoints": 6,
-      "totalPoints": 48
+      "totalPoints": 54
     }
   },
   {
@@ -1940,9 +1940,9 @@
       "secondName": "Wood",
       "club": 5,
       "position": 4,
-      "cost": 6.2,
-      "eventPoints": 0,
-      "totalPoints": 99
+      "cost": 6.1,
+      "eventPoints": 1,
+      "totalPoints": 100
     }
   },
   {
@@ -1955,8 +1955,8 @@
       "club": 5,
       "position": 4,
       "cost": 5.3,
-      "eventPoints": 6,
-      "totalPoints": 24
+      "eventPoints": 1,
+      "totalPoints": 25
     }
   },
   {
@@ -1969,8 +1969,8 @@
       "club": 5,
       "position": 1,
       "cost": 4.8,
-      "eventPoints": 9,
-      "totalPoints": 116
+      "eventPoints": 10,
+      "totalPoints": 126
     }
   },
   {
@@ -2011,8 +2011,8 @@
       "club": 5,
       "position": 3,
       "cost": 6,
-      "eventPoints": 14,
-      "totalPoints": 92
+      "eventPoints": 3,
+      "totalPoints": 95
     }
   },
   {
@@ -2025,7 +2025,7 @@
       "club": 5,
       "position": 3,
       "cost": 5.5,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 29
     }
   },
@@ -2053,8 +2053,8 @@
       "club": 5,
       "position": 3,
       "cost": 5.4,
-      "eventPoints": 2,
-      "totalPoints": 63
+      "eventPoints": 3,
+      "totalPoints": 66
     }
   },
   {
@@ -2068,7 +2068,7 @@
       "position": 3,
       "cost": 5.4,
       "eventPoints": 3,
-      "totalPoints": 87
+      "totalPoints": 90
     }
   },
   {
@@ -2082,7 +2082,7 @@
       "position": 3,
       "cost": 4.9,
       "eventPoints": 3,
-      "totalPoints": 58
+      "totalPoints": 61
     }
   },
   {
@@ -2123,8 +2123,8 @@
       "club": 5,
       "position": 4,
       "cost": 5.7,
-      "eventPoints": 6,
-      "totalPoints": 58
+      "eventPoints": 2,
+      "totalPoints": 60
     }
   },
   {
@@ -2193,7 +2193,7 @@
       "club": 5,
       "position": 3,
       "cost": 4.9,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 1
     }
   },
@@ -2207,8 +2207,8 @@
       "club": 6,
       "position": 2,
       "cost": 6,
-      "eventPoints": 8,
-      "totalPoints": 55
+      "eventPoints": 16,
+      "totalPoints": 71
     }
   },
   {
@@ -2235,8 +2235,8 @@
       "club": 6,
       "position": 2,
       "cost": 5.8,
-      "eventPoints": 2,
-      "totalPoints": 81
+      "eventPoints": 1,
+      "totalPoints": 82
     }
   },
   {
@@ -2263,7 +2263,7 @@
       "club": 6,
       "position": 2,
       "cost": 4.9,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 22
     }
   },
@@ -2291,8 +2291,8 @@
       "club": 6,
       "position": 4,
       "cost": 6.5,
-      "eventPoints": 9,
-      "totalPoints": 17
+      "eventPoints": 5,
+      "totalPoints": 22
     }
   },
   {
@@ -2304,7 +2304,7 @@
       "secondName": "Arrizabalaga",
       "club": 6,
       "position": 1,
-      "cost": 5.5,
+      "cost": 5.4,
       "eventPoints": 0,
       "totalPoints": 63
     }
@@ -2319,8 +2319,8 @@
       "club": 6,
       "position": 1,
       "cost": 4.8,
-      "eventPoints": 3,
-      "totalPoints": 5
+      "eventPoints": 2,
+      "totalPoints": 7
     }
   },
   {
@@ -2334,7 +2334,7 @@
       "position": 3,
       "cost": 7,
       "eventPoints": 1,
-      "totalPoints": 99
+      "totalPoints": 100
     }
   },
   {
@@ -2347,8 +2347,8 @@
       "club": 6,
       "position": 3,
       "cost": 6.8,
-      "eventPoints": 0,
-      "totalPoints": 13
+      "eventPoints": 5,
+      "totalPoints": 18
     }
   },
   {
@@ -2389,8 +2389,8 @@
       "club": 6,
       "position": 3,
       "cost": 5.6,
-      "eventPoints": 9,
-      "totalPoints": 24
+      "eventPoints": 1,
+      "totalPoints": 25
     }
   },
   {
@@ -2403,8 +2403,8 @@
       "club": 6,
       "position": 3,
       "cost": 4.9,
-      "eventPoints": 2,
-      "totalPoints": 80
+      "eventPoints": 1,
+      "totalPoints": 81
     }
   },
   {
@@ -2459,8 +2459,8 @@
       "club": 6,
       "position": 3,
       "cost": 5.3,
-      "eventPoints": 4,
-      "totalPoints": 56
+      "eventPoints": 2,
+      "totalPoints": 58
     }
   },
   {
@@ -2487,7 +2487,7 @@
       "club": 6,
       "position": 4,
       "cost": 7.6,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 131
     }
   },
@@ -2501,8 +2501,8 @@
       "club": 6,
       "position": 4,
       "cost": 6.6,
-      "eventPoints": 0,
-      "totalPoints": 27
+      "eventPoints": 1,
+      "totalPoints": 28
     }
   },
   {
@@ -2530,7 +2530,7 @@
       "position": 3,
       "cost": 6.1,
       "eventPoints": 2,
-      "totalPoints": 103
+      "totalPoints": 105
     }
   },
   {
@@ -2543,8 +2543,8 @@
       "club": 6,
       "position": 2,
       "cost": 5,
-      "eventPoints": 2,
-      "totalPoints": 43
+      "eventPoints": 1,
+      "totalPoints": 44
     }
   },
   {
@@ -2556,9 +2556,9 @@
       "secondName": "Tomori",
       "club": 6,
       "position": 2,
-      "cost": 4.4,
-      "eventPoints": 0,
-      "totalPoints": 47
+      "cost": 4.3,
+      "eventPoints": 1,
+      "totalPoints": 48
     }
   },
   {
@@ -2599,8 +2599,8 @@
       "club": 7,
       "position": 2,
       "cost": 5.5,
-      "eventPoints": 15,
-      "totalPoints": 73
+      "eventPoints": 8,
+      "totalPoints": 81
     }
   },
   {
@@ -2641,8 +2641,8 @@
       "club": 7,
       "position": 2,
       "cost": 4.3,
-      "eventPoints": 8,
-      "totalPoints": 50
+      "eventPoints": 6,
+      "totalPoints": 56
     }
   },
   {
@@ -2655,8 +2655,8 @@
       "club": 7,
       "position": 2,
       "cost": 4.3,
-      "eventPoints": 7,
-      "totalPoints": 23
+      "eventPoints": 6,
+      "totalPoints": 29
     }
   },
   {
@@ -2683,8 +2683,8 @@
       "club": 7,
       "position": 4,
       "cost": 5.7,
-      "eventPoints": 2,
-      "totalPoints": 28
+      "eventPoints": 4,
+      "totalPoints": 32
     }
   },
   {
@@ -2711,8 +2711,8 @@
       "club": 7,
       "position": 1,
       "cost": 5.1,
-      "eventPoints": 6,
-      "totalPoints": 95
+      "eventPoints": 11,
+      "totalPoints": 106
     }
   },
   {
@@ -2740,7 +2740,7 @@
       "position": 3,
       "cost": 6.8,
       "eventPoints": 3,
-      "totalPoints": 90
+      "totalPoints": 93
     }
   },
   {
@@ -2809,8 +2809,8 @@
       "club": 7,
       "position": 3,
       "cost": 5.2,
-      "eventPoints": 2,
-      "totalPoints": 66
+      "eventPoints": 3,
+      "totalPoints": 69
     }
   },
   {
@@ -2824,7 +2824,7 @@
       "position": 3,
       "cost": 4.9,
       "eventPoints": 3,
-      "totalPoints": 67
+      "totalPoints": 70
     }
   },
   {
@@ -2852,7 +2852,7 @@
       "position": 4,
       "cost": 5.7,
       "eventPoints": 1,
-      "totalPoints": 23
+      "totalPoints": 24
     }
   },
   {
@@ -2865,8 +2865,8 @@
       "club": 7,
       "position": 3,
       "cost": 4.3,
-      "eventPoints": 2,
-      "totalPoints": 27
+      "eventPoints": 1,
+      "totalPoints": 28
     }
   },
   {
@@ -2878,9 +2878,9 @@
       "secondName": "Ayew",
       "club": 7,
       "position": 4,
-      "cost": 5,
-      "eventPoints": 5,
-      "totalPoints": 95
+      "cost": 5.1,
+      "eventPoints": 7,
+      "totalPoints": 102
     }
   },
   {
@@ -2894,7 +2894,7 @@
       "position": 2,
       "cost": 4.4,
       "eventPoints": 6,
-      "totalPoints": 47
+      "totalPoints": 53
     }
   },
   {
@@ -2922,7 +2922,7 @@
       "position": 3,
       "cost": 4.5,
       "eventPoints": 1,
-      "totalPoints": 14
+      "totalPoints": 15
     }
   },
   {
@@ -3033,7 +3033,7 @@
       "club": 8,
       "position": 3,
       "cost": 5.6,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 38
     }
   },
@@ -3061,7 +3061,7 @@
       "club": 8,
       "position": 2,
       "cost": 5.3,
-      "eventPoints": 4,
+      "eventPoints": 0,
       "totalPoints": 73
     }
   },
@@ -3103,7 +3103,7 @@
       "club": 8,
       "position": 2,
       "cost": 4.9,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 9
     }
   },
@@ -3116,8 +3116,8 @@
       "secondName": "Calvert-Lewin",
       "club": 8,
       "position": 4,
-      "cost": 6.2,
-      "eventPoints": 6,
+      "cost": 6.3,
+      "eventPoints": 0,
       "totalPoints": 102
     }
   },
@@ -3131,7 +3131,7 @@
       "club": 8,
       "position": 1,
       "cost": 5.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 79
     }
   },
@@ -3159,7 +3159,7 @@
       "club": 8,
       "position": 3,
       "cost": 8.3,
-      "eventPoints": 6,
+      "eventPoints": 0,
       "totalPoints": 129
     }
   },
@@ -3173,7 +3173,7 @@
       "club": 8,
       "position": 3,
       "cost": 7.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 65
     }
   },
@@ -3187,7 +3187,7 @@
       "club": 8,
       "position": 3,
       "cost": 6.4,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 58
     }
   },
@@ -3271,7 +3271,7 @@
       "club": 8,
       "position": 2,
       "cost": 5.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 24
     }
   },
@@ -3312,8 +3312,8 @@
       "secondName": "Holgate",
       "club": 8,
       "position": 2,
-      "cost": 4.5,
-      "eventPoints": 1,
+      "cost": 4.4,
+      "eventPoints": 0,
       "totalPoints": 54
     }
   },
@@ -3341,7 +3341,7 @@
       "club": 8,
       "position": 4,
       "cost": 6.4,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 38
     }
   },
@@ -3368,8 +3368,8 @@
       "secondName": "Sidibé",
       "club": 8,
       "position": 2,
-      "cost": 5.2,
-      "eventPoints": 1,
+      "cost": 5.1,
+      "eventPoints": 0,
       "totalPoints": 63
     }
   },
@@ -3440,7 +3440,7 @@
       "position": 2,
       "cost": 6.3,
       "eventPoints": 2,
-      "totalPoints": 115
+      "totalPoints": 117
     }
   },
   {
@@ -3454,7 +3454,7 @@
       "position": 2,
       "cost": 5.6,
       "eventPoints": 2,
-      "totalPoints": 92
+      "totalPoints": 94
     }
   },
   {
@@ -3468,7 +3468,7 @@
       "position": 2,
       "cost": 5.2,
       "eventPoints": 2,
-      "totalPoints": 101
+      "totalPoints": 103
     }
   },
   {
@@ -3481,7 +3481,7 @@
       "club": 9,
       "position": 2,
       "cost": 4.2,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 24
     }
   },
@@ -3496,7 +3496,7 @@
       "position": 2,
       "cost": 5,
       "eventPoints": 2,
-      "totalPoints": 95
+      "totalPoints": 97
     }
   },
   {
@@ -3522,8 +3522,8 @@
       "secondName": "Vardy",
       "club": 9,
       "position": 4,
-      "cost": 9.7,
-      "eventPoints": 2,
+      "cost": 9.8,
+      "eventPoints": 0,
       "totalPoints": 156
     }
   },
@@ -3537,8 +3537,8 @@
       "club": 9,
       "position": 4,
       "cost": 5.7,
-      "eventPoints": 1,
-      "totalPoints": 41
+      "eventPoints": 2,
+      "totalPoints": 43
     }
   },
   {
@@ -3551,8 +3551,8 @@
       "club": 9,
       "position": 1,
       "cost": 5.3,
-      "eventPoints": 12,
-      "totalPoints": 111
+      "eventPoints": 2,
+      "totalPoints": 113
     }
   },
   {
@@ -3578,7 +3578,7 @@
       "secondName": "Ward",
       "club": 9,
       "position": 1,
-      "cost": 4.3,
+      "cost": 4.2,
       "eventPoints": 0,
       "totalPoints": 0
     }
@@ -3592,9 +3592,9 @@
       "secondName": "Maddison",
       "club": 9,
       "position": 3,
-      "cost": 7.4,
+      "cost": 7.5,
       "eventPoints": 2,
-      "totalPoints": 114
+      "totalPoints": 116
     }
   },
   {
@@ -3606,9 +3606,9 @@
       "secondName": "Barnes",
       "club": 9,
       "position": 3,
-      "cost": 6,
-      "eventPoints": 1,
-      "totalPoints": 91
+      "cost": 6.1,
+      "eventPoints": 2,
+      "totalPoints": 93
     }
   },
   {
@@ -3635,8 +3635,8 @@
       "club": 9,
       "position": 3,
       "cost": 5.1,
-      "eventPoints": 0,
-      "totalPoints": 16
+      "eventPoints": 1,
+      "totalPoints": 17
     }
   },
   {
@@ -3663,8 +3663,8 @@
       "club": 9,
       "position": 3,
       "cost": 5,
-      "eventPoints": 0,
-      "totalPoints": 63
+      "eventPoints": 1,
+      "totalPoints": 64
     }
   },
   {
@@ -3677,7 +3677,7 @@
       "club": 9,
       "position": 3,
       "cost": 4.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 1
     }
   },
@@ -3719,8 +3719,8 @@
       "club": 9,
       "position": 3,
       "cost": 4.3,
-      "eventPoints": 0,
-      "totalPoints": 27
+      "eventPoints": 3,
+      "totalPoints": 30
     }
   },
   {
@@ -3733,8 +3733,8 @@
       "club": 9,
       "position": 3,
       "cost": 6.2,
-      "eventPoints": 1,
-      "totalPoints": 108
+      "eventPoints": 2,
+      "totalPoints": 110
     }
   },
   {
@@ -3775,8 +3775,8 @@
       "club": 9,
       "position": 3,
       "cost": 6.2,
-      "eventPoints": 2,
-      "totalPoints": 93
+      "eventPoints": 1,
+      "totalPoints": 94
     }
   },
   {
@@ -3803,8 +3803,8 @@
       "club": 9,
       "position": 3,
       "cost": 5.3,
-      "eventPoints": 2,
-      "totalPoints": 45
+      "eventPoints": 1,
+      "totalPoints": 46
     }
   },
   {
@@ -3831,8 +3831,8 @@
       "club": 10,
       "position": 2,
       "cost": 7,
-      "eventPoints": 4,
-      "totalPoints": 136
+      "eventPoints": 1,
+      "totalPoints": 137
     }
   },
   {
@@ -3845,8 +3845,8 @@
       "club": 10,
       "position": 2,
       "cost": 7.7,
-      "eventPoints": 10,
-      "totalPoints": 163
+      "eventPoints": 1,
+      "totalPoints": 164
     }
   },
   {
@@ -3860,7 +3860,7 @@
       "position": 2,
       "cost": 6.6,
       "eventPoints": 1,
-      "totalPoints": 134
+      "totalPoints": 135
     }
   },
   {
@@ -3873,7 +3873,7 @@
       "club": 10,
       "position": 2,
       "cost": 5.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 74
     }
   },
@@ -3887,7 +3887,7 @@
       "club": 10,
       "position": 2,
       "cost": 5.2,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 33
     }
   },
@@ -3901,8 +3901,8 @@
       "club": 10,
       "position": 2,
       "cost": 5.3,
-      "eventPoints": 0,
-      "totalPoints": 16
+      "eventPoints": 1,
+      "totalPoints": 17
     }
   },
   {
@@ -3916,7 +3916,7 @@
       "position": 4,
       "cost": 9.7,
       "eventPoints": 2,
-      "totalPoints": 126
+      "totalPoints": 128
     }
   },
   {
@@ -3929,8 +3929,8 @@
       "club": 10,
       "position": 4,
       "cost": 5.2,
-      "eventPoints": 0,
-      "totalPoints": 50
+      "eventPoints": 1,
+      "totalPoints": 51
     }
   },
   {
@@ -3944,7 +3944,7 @@
       "position": 1,
       "cost": 6.2,
       "eventPoints": 1,
-      "totalPoints": 88
+      "totalPoints": 89
     }
   },
   {
@@ -3971,8 +3971,8 @@
       "club": 10,
       "position": 3,
       "cost": 12.8,
-      "eventPoints": 7,
-      "totalPoints": 175
+      "eventPoints": 2,
+      "totalPoints": 177
     }
   },
   {
@@ -3984,9 +3984,9 @@
       "secondName": "Mané",
       "club": 10,
       "position": 3,
-      "cost": 12.3,
-      "eventPoints": 8,
-      "totalPoints": 160
+      "cost": 12.4,
+      "eventPoints": 2,
+      "totalPoints": 162
     }
   },
   {
@@ -3999,8 +3999,8 @@
       "club": 10,
       "position": 3,
       "cost": 6.2,
-      "eventPoints": 1,
-      "totalPoints": 52
+      "eventPoints": 2,
+      "totalPoints": 54
     }
   },
   {
@@ -4027,8 +4027,8 @@
       "club": 10,
       "position": 3,
       "cost": 5.7,
-      "eventPoints": 0,
-      "totalPoints": 25
+      "eventPoints": 1,
+      "totalPoints": 26
     }
   },
   {
@@ -4041,7 +4041,7 @@
       "club": 10,
       "position": 3,
       "cost": 5.8,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 25
     }
   },
@@ -4056,7 +4056,7 @@
       "position": 3,
       "cost": 5.4,
       "eventPoints": 2,
-      "totalPoints": 41
+      "totalPoints": 43
     }
   },
   {
@@ -4083,8 +4083,8 @@
       "club": 10,
       "position": 3,
       "cost": 5.4,
-      "eventPoints": 9,
-      "totalPoints": 81
+      "eventPoints": 2,
+      "totalPoints": 83
     }
   },
   {
@@ -4237,8 +4237,22 @@
       "club": 10,
       "position": 3,
       "cost": 6.2,
+      "eventPoints": 1,
+      "totalPoints": 3
+    }
+  },
+  {
+    "model": "players.player",
+    "pk": 628,
+    "fields": {
+      "playerID": 628,
+      "firstName": "Ki-Jana",
+      "secondName": "Hoever",
+      "club": 10,
+      "position": 2,
+      "cost": 4,
       "eventPoints": 0,
-      "totalPoints": 2
+      "totalPoints": 0
     }
   },
   {
@@ -4251,7 +4265,7 @@
       "club": 11,
       "position": 2,
       "cost": 6.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 22
     }
   },
@@ -4265,7 +4279,7 @@
       "club": 11,
       "position": 2,
       "cost": 5.7,
-      "eventPoints": 6,
+      "eventPoints": 0,
       "totalPoints": 73
     }
   },
@@ -4279,7 +4293,7 @@
       "club": 11,
       "position": 2,
       "cost": 5.5,
-      "eventPoints": 6,
+      "eventPoints": 0,
       "totalPoints": 48
     }
   },
@@ -4321,7 +4335,7 @@
       "club": 11,
       "position": 2,
       "cost": 5,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 65
     }
   },
@@ -4363,7 +4377,7 @@
       "club": 11,
       "position": 4,
       "cost": 9.5,
-      "eventPoints": 6,
+      "eventPoints": 0,
       "totalPoints": 97
     }
   },
@@ -4377,7 +4391,7 @@
       "club": 11,
       "position": 1,
       "cost": 6,
-      "eventPoints": 7,
+      "eventPoints": 0,
       "totalPoints": 80
     }
   },
@@ -4418,8 +4432,8 @@
       "secondName": "De Bruyne",
       "club": 11,
       "position": 3,
-      "cost": 10.8,
-      "eventPoints": 3,
+      "cost": 10.7,
+      "eventPoints": 0,
       "totalPoints": 178
     }
   },
@@ -4446,8 +4460,8 @@
       "secondName": "Mahrez",
       "club": 11,
       "position": 3,
-      "cost": 8.5,
-      "eventPoints": 8,
+      "cost": 8.4,
+      "eventPoints": 0,
       "totalPoints": 120
     }
   },
@@ -4461,7 +4475,7 @@
       "club": 11,
       "position": 3,
       "cost": 7.8,
-      "eventPoints": 3,
+      "eventPoints": 0,
       "totalPoints": 85
     }
   },
@@ -4503,7 +4517,7 @@
       "club": 11,
       "position": 3,
       "cost": 5.2,
-      "eventPoints": 3,
+      "eventPoints": 0,
       "totalPoints": 43
     }
   },
@@ -4517,7 +4531,7 @@
       "club": 11,
       "position": 3,
       "cost": 5.2,
-      "eventPoints": 3,
+      "eventPoints": 0,
       "totalPoints": 50
     }
   },
@@ -4545,7 +4559,7 @@
       "club": 11,
       "position": 3,
       "cost": 5.4,
-      "eventPoints": 3,
+      "eventPoints": 0,
       "totalPoints": 72
     }
   },
@@ -4601,7 +4615,7 @@
       "club": 12,
       "position": 2,
       "cost": 5.3,
-      "eventPoints": 6,
+      "eventPoints": 0,
       "totalPoints": 76
     }
   },
@@ -4615,7 +4629,7 @@
       "club": 12,
       "position": 2,
       "cost": 5.2,
-      "eventPoints": 6,
+      "eventPoints": 0,
       "totalPoints": 83
     }
   },
@@ -4657,7 +4671,7 @@
       "club": 12,
       "position": 2,
       "cost": 5.3,
-      "eventPoints": 6,
+      "eventPoints": 0,
       "totalPoints": 69
     }
   },
@@ -4671,7 +4685,7 @@
       "club": 12,
       "position": 2,
       "cost": 5.4,
-      "eventPoints": 7,
+      "eventPoints": 0,
       "totalPoints": 39
     }
   },
@@ -4783,7 +4797,7 @@
       "club": 12,
       "position": 4,
       "cost": 4.3,
-      "eventPoints": 8,
+      "eventPoints": 0,
       "totalPoints": 51
     }
   },
@@ -4797,7 +4811,7 @@
       "club": 12,
       "position": 1,
       "cost": 5.4,
-      "eventPoints": 6,
+      "eventPoints": 0,
       "totalPoints": 91
     }
   },
@@ -4853,7 +4867,7 @@
       "club": 12,
       "position": 3,
       "cost": 8,
-      "eventPoints": 8,
+      "eventPoints": 0,
       "totalPoints": 112
     }
   },
@@ -4908,8 +4922,8 @@
       "secondName": "James",
       "club": 12,
       "position": 3,
-      "cost": 5.9,
-      "eventPoints": 3,
+      "cost": 5.8,
+      "eventPoints": 0,
       "totalPoints": 86
     }
   },
@@ -4923,7 +4937,7 @@
       "club": 12,
       "position": 3,
       "cost": 5.3,
-      "eventPoints": 3,
+      "eventPoints": 0,
       "totalPoints": 43
     }
   },
@@ -4965,7 +4979,7 @@
       "club": 12,
       "position": 3,
       "cost": 4.8,
-      "eventPoints": 3,
+      "eventPoints": 0,
       "totalPoints": 23
     }
   },
@@ -4979,7 +4993,7 @@
       "club": 12,
       "position": 3,
       "cost": 4.9,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 56
     }
   },
@@ -4993,7 +5007,7 @@
       "club": 12,
       "position": 3,
       "cost": 4.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 3
     }
   },
@@ -5048,8 +5062,8 @@
       "secondName": "Borges Fernandes",
       "club": 12,
       "position": 3,
-      "cost": 8.2,
-      "eventPoints": 14,
+      "cost": 8.3,
+      "eventPoints": 0,
       "totalPoints": 22
     }
   },
@@ -5063,7 +5077,7 @@
       "club": 12,
       "position": 4,
       "cost": 6.5,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 2
     }
   },
@@ -5077,8 +5091,8 @@
       "club": 13,
       "position": 2,
       "cost": 5.3,
-      "eventPoints": 0,
-      "totalPoints": 21
+      "eventPoints": 6,
+      "totalPoints": 27
     }
   },
   {
@@ -5091,7 +5105,7 @@
       "club": 13,
       "position": 2,
       "cost": 5,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 53
     }
   },
@@ -5119,8 +5133,8 @@
       "club": 13,
       "position": 2,
       "cost": 4.5,
-      "eventPoints": 2,
-      "totalPoints": 70
+      "eventPoints": 8,
+      "totalPoints": 78
     }
   },
   {
@@ -5147,8 +5161,8 @@
       "club": 13,
       "position": 2,
       "cost": 4.3,
-      "eventPoints": 0,
-      "totalPoints": 32
+      "eventPoints": 5,
+      "totalPoints": 37
     }
   },
   {
@@ -5175,8 +5189,8 @@
       "club": 13,
       "position": 2,
       "cost": 4.3,
-      "eventPoints": 1,
-      "totalPoints": 52
+      "eventPoints": 6,
+      "totalPoints": 58
     }
   },
   {
@@ -5231,8 +5245,8 @@
       "club": 13,
       "position": 1,
       "cost": 5,
-      "eventPoints": 4,
-      "totalPoints": 104
+      "eventPoints": 6,
+      "totalPoints": 110
     }
   },
   {
@@ -5273,8 +5287,8 @@
       "club": 13,
       "position": 3,
       "cost": 5.8,
-      "eventPoints": 1,
-      "totalPoints": 73
+      "eventPoints": 3,
+      "totalPoints": 76
     }
   },
   {
@@ -5315,8 +5329,8 @@
       "club": 13,
       "position": 3,
       "cost": 4.9,
-      "eventPoints": 0,
-      "totalPoints": 64
+      "eventPoints": 2,
+      "totalPoints": 66
     }
   },
   {
@@ -5329,7 +5343,7 @@
       "club": 13,
       "position": 3,
       "cost": 5,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 36
     }
   },
@@ -5343,8 +5357,8 @@
       "club": 13,
       "position": 3,
       "cost": 4.3,
-      "eventPoints": 0,
-      "totalPoints": 55
+      "eventPoints": 3,
+      "totalPoints": 58
     }
   },
   {
@@ -5357,8 +5371,8 @@
       "club": 13,
       "position": 2,
       "cost": 5.3,
-      "eventPoints": 2,
-      "totalPoints": 20
+      "eventPoints": 5,
+      "totalPoints": 25
     }
   },
   {
@@ -5371,8 +5385,8 @@
       "club": 13,
       "position": 4,
       "cost": 5.5,
-      "eventPoints": 1,
-      "totalPoints": 59
+      "eventPoints": 2,
+      "totalPoints": 61
     }
   },
   {
@@ -5441,8 +5455,8 @@
       "club": 13,
       "position": 3,
       "cost": 5.4,
-      "eventPoints": 2,
-      "totalPoints": 44
+      "eventPoints": 1,
+      "totalPoints": 45
     }
   },
   {
@@ -5498,7 +5512,7 @@
       "position": 4,
       "cost": 5,
       "eventPoints": 1,
-      "totalPoints": 13
+      "totalPoints": 14
     }
   },
   {
@@ -5567,7 +5581,7 @@
       "club": 13,
       "position": 3,
       "cost": 5,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 5
     }
   },
@@ -5580,8 +5594,8 @@
       "secondName": "Lazaro",
       "club": 13,
       "position": 3,
-      "cost": 5.5,
-      "eventPoints": -1,
+      "cost": 5.4,
+      "eventPoints": 0,
       "totalPoints": 2
     }
   },
@@ -5609,8 +5623,8 @@
       "club": 14,
       "position": 2,
       "cost": 4.4,
-      "eventPoints": 0,
-      "totalPoints": 24
+      "eventPoints": 6,
+      "totalPoints": 30
     }
   },
   {
@@ -5623,8 +5637,8 @@
       "club": 14,
       "position": 2,
       "cost": 4.3,
-      "eventPoints": 0,
-      "totalPoints": 45
+      "eventPoints": 11,
+      "totalPoints": 56
     }
   },
   {
@@ -5651,8 +5665,8 @@
       "club": 14,
       "position": 2,
       "cost": 4.4,
-      "eventPoints": 1,
-      "totalPoints": 24
+      "eventPoints": 15,
+      "totalPoints": 39
     }
   },
   {
@@ -5665,8 +5679,8 @@
       "club": 14,
       "position": 2,
       "cost": 4,
-      "eventPoints": 1,
-      "totalPoints": 16
+      "eventPoints": 5,
+      "totalPoints": 21
     }
   },
   {
@@ -5680,7 +5694,7 @@
       "position": 4,
       "cost": 6.5,
       "eventPoints": 2,
-      "totalPoints": 123
+      "totalPoints": 125
     }
   },
   {
@@ -5707,8 +5721,8 @@
       "club": 14,
       "position": 1,
       "cost": 4.5,
-      "eventPoints": 2,
-      "totalPoints": 81
+      "eventPoints": 8,
+      "totalPoints": 89
     }
   },
   {
@@ -5749,8 +5763,8 @@
       "club": 14,
       "position": 3,
       "cost": 6,
-      "eventPoints": 0,
-      "totalPoints": 75
+      "eventPoints": 3,
+      "totalPoints": 78
     }
   },
   {
@@ -5778,7 +5792,7 @@
       "position": 3,
       "cost": 5.1,
       "eventPoints": 1,
-      "totalPoints": 25
+      "totalPoints": 26
     }
   },
   {
@@ -5791,8 +5805,8 @@
       "club": 14,
       "position": 3,
       "cost": 4.8,
-      "eventPoints": 2,
-      "totalPoints": 57
+      "eventPoints": 3,
+      "totalPoints": 60
     }
   },
   {
@@ -5805,8 +5819,8 @@
       "club": 14,
       "position": 3,
       "cost": 4.8,
-      "eventPoints": 2,
-      "totalPoints": 96
+      "eventPoints": 3,
+      "totalPoints": 99
     }
   },
   {
@@ -5833,8 +5847,8 @@
       "club": 14,
       "position": 3,
       "cost": 4.5,
-      "eventPoints": 2,
-      "totalPoints": 50
+      "eventPoints": 3,
+      "totalPoints": 53
     }
   },
   {
@@ -5862,7 +5876,7 @@
       "position": 4,
       "cost": 5.3,
       "eventPoints": 1,
-      "totalPoints": 16
+      "totalPoints": 17
     }
   },
   {
@@ -5986,9 +6000,9 @@
       "secondName": "Duda",
       "club": 14,
       "position": 3,
-      "cost": 4.9,
-      "eventPoints": 1,
-      "totalPoints": 14
+      "cost": 4.8,
+      "eventPoints": 3,
+      "totalPoints": 17
     }
   },
   {
@@ -6002,7 +6016,7 @@
       "position": 3,
       "cost": 4.5,
       "eventPoints": 1,
-      "totalPoints": 9
+      "totalPoints": 10
     }
   },
   {
@@ -6029,7 +6043,7 @@
       "club": 15,
       "position": 2,
       "cost": 5.1,
-      "eventPoints": 7,
+      "eventPoints": 0,
       "totalPoints": 104
     }
   },
@@ -6057,7 +6071,7 @@
       "club": 15,
       "position": 2,
       "cost": 4.7,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 90
     }
   },
@@ -6071,7 +6085,7 @@
       "club": 15,
       "position": 2,
       "cost": 5.1,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 109
     }
   },
@@ -6085,7 +6099,7 @@
       "club": 15,
       "position": 2,
       "cost": 4.6,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 88
     }
   },
@@ -6113,7 +6127,7 @@
       "club": 15,
       "position": 2,
       "cost": 4.9,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 116
     }
   },
@@ -6127,7 +6141,7 @@
       "club": 15,
       "position": 4,
       "cost": 5.6,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 31
     }
   },
@@ -6168,8 +6182,8 @@
       "secondName": "Fleck",
       "club": 15,
       "position": 3,
-      "cost": 5.1,
-      "eventPoints": 2,
+      "cost": 5,
+      "eventPoints": 0,
       "totalPoints": 91
     }
   },
@@ -6183,7 +6197,7 @@
       "club": 15,
       "position": 3,
       "cost": 4.9,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 74
     }
   },
@@ -6197,7 +6211,7 @@
       "club": 15,
       "position": 4,
       "cost": 5.4,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 41
     }
   },
@@ -6211,7 +6225,7 @@
       "club": 15,
       "position": 2,
       "cost": 4.5,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 83
     }
   },
@@ -6295,7 +6309,7 @@
       "club": 15,
       "position": 1,
       "cost": 5.2,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 115
     }
   },
@@ -6309,7 +6323,7 @@
       "club": 15,
       "position": 3,
       "cost": 4.7,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 6
     }
   },
@@ -6323,7 +6337,7 @@
       "club": 15,
       "position": 4,
       "cost": 5.7,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 56
     }
   },
@@ -6406,8 +6420,8 @@
       "secondName": "Berge",
       "club": 15,
       "position": 3,
-      "cost": 5,
-      "eventPoints": 2,
+      "cost": 4.9,
+      "eventPoints": 0,
       "totalPoints": 7
     }
   },
@@ -6420,7 +6434,7 @@
       "secondName": "Zivkovic",
       "club": 15,
       "position": 4,
-      "cost": 4.9,
+      "cost": 4.8,
       "eventPoints": 0,
       "totalPoints": 0
     }
@@ -6449,8 +6463,8 @@
       "club": 16,
       "position": 2,
       "cost": 4.6,
-      "eventPoints": 0,
-      "totalPoints": 38
+      "eventPoints": 1,
+      "totalPoints": 39
     }
   },
   {
@@ -6463,8 +6477,8 @@
       "club": 16,
       "position": 2,
       "cost": 4.8,
-      "eventPoints": 6,
-      "totalPoints": 46
+      "eventPoints": 1,
+      "totalPoints": 47
     }
   },
   {
@@ -6491,8 +6505,8 @@
       "club": 16,
       "position": 2,
       "cost": 4.4,
-      "eventPoints": 6,
-      "totalPoints": 59
+      "eventPoints": 1,
+      "totalPoints": 60
     }
   },
   {
@@ -6505,7 +6519,7 @@
       "club": 16,
       "position": 2,
       "cost": 4.5,
-      "eventPoints": 6,
+      "eventPoints": 0,
       "totalPoints": 62
     }
   },
@@ -6560,9 +6574,9 @@
       "secondName": "Ings",
       "club": 16,
       "position": 4,
-      "cost": 7.1,
-      "eventPoints": 2,
-      "totalPoints": 137
+      "cost": 7.2,
+      "eventPoints": 1,
+      "totalPoints": 138
     }
   },
   {
@@ -6575,8 +6589,8 @@
       "club": 16,
       "position": 4,
       "cost": 4.9,
-      "eventPoints": 1,
-      "totalPoints": 21
+      "eventPoints": 6,
+      "totalPoints": 27
     }
   },
   {
@@ -6589,8 +6603,8 @@
       "club": 16,
       "position": 4,
       "cost": 4.6,
-      "eventPoints": 9,
-      "totalPoints": 49
+      "eventPoints": 2,
+      "totalPoints": 51
     }
   },
   {
@@ -6630,9 +6644,9 @@
       "secondName": "McCarthy",
       "club": 16,
       "position": 1,
-      "cost": 4.4,
-      "eventPoints": 7,
-      "totalPoints": 54
+      "cost": 4.5,
+      "eventPoints": 2,
+      "totalPoints": 56
     }
   },
   {
@@ -6673,8 +6687,8 @@
       "club": 16,
       "position": 3,
       "cost": 5.7,
-      "eventPoints": 3,
-      "totalPoints": 86
+      "eventPoints": 5,
+      "totalPoints": 91
     }
   },
   {
@@ -6701,8 +6715,8 @@
       "club": 16,
       "position": 3,
       "cost": 5.2,
-      "eventPoints": 9,
-      "totalPoints": 56
+      "eventPoints": 2,
+      "totalPoints": 58
     }
   },
   {
@@ -6729,8 +6743,8 @@
       "club": 16,
       "position": 3,
       "cost": 4.8,
-      "eventPoints": 3,
-      "totalPoints": 62
+      "eventPoints": 2,
+      "totalPoints": 64
     }
   },
   {
@@ -6772,7 +6786,7 @@
       "position": 3,
       "cost": 4.3,
       "eventPoints": 1,
-      "totalPoints": 35
+      "totalPoints": 36
     }
   },
   {
@@ -6799,7 +6813,7 @@
       "club": 16,
       "position": 4,
       "cost": 5.3,
-      "eventPoints": 4,
+      "eventPoints": 0,
       "totalPoints": 38
     }
   },
@@ -6813,7 +6827,7 @@
       "club": 16,
       "position": 3,
       "cost": 5.2,
-      "eventPoints": 6,
+      "eventPoints": 0,
       "totalPoints": 42
     }
   },
@@ -6841,8 +6855,8 @@
       "club": 16,
       "position": 3,
       "cost": 5.5,
-      "eventPoints": 0,
-      "totalPoints": 30
+      "eventPoints": 1,
+      "totalPoints": 31
     }
   },
   {
@@ -6897,8 +6911,8 @@
       "club": 16,
       "position": 3,
       "cost": 4.5,
-      "eventPoints": 3,
-      "totalPoints": 3
+      "eventPoints": 2,
+      "totalPoints": 5
     }
   },
   {
@@ -6911,7 +6925,7 @@
       "club": 17,
       "position": 2,
       "cost": 5.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 10
     }
   },
@@ -6925,7 +6939,7 @@
       "club": 17,
       "position": 2,
       "cost": 5.2,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 50
     }
   },
@@ -6939,7 +6953,7 @@
       "club": 17,
       "position": 2,
       "cost": 5.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 64
     }
   },
@@ -6953,7 +6967,7 @@
       "club": 17,
       "position": 2,
       "cost": 5.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 37
     }
   },
@@ -6995,7 +7009,7 @@
       "club": 17,
       "position": 2,
       "cost": 5,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 77
     }
   },
@@ -7037,7 +7051,7 @@
       "club": 17,
       "position": 1,
       "cost": 5.3,
-      "eventPoints": 3,
+      "eventPoints": 0,
       "totalPoints": 45
     }
   },
@@ -7050,7 +7064,7 @@
       "secondName": "Gazzaniga",
       "club": 17,
       "position": 1,
-      "cost": 4.3,
+      "cost": 4.2,
       "eventPoints": 0,
       "totalPoints": 57
     }
@@ -7064,7 +7078,7 @@
       "secondName": "Son",
       "club": 17,
       "position": 3,
-      "cost": 9.9,
+      "cost": 9.8,
       "eventPoints": 0,
       "totalPoints": 122
     }
@@ -7093,7 +7107,7 @@
       "club": 17,
       "position": 3,
       "cost": 8.4,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 99
     }
   },
@@ -7107,7 +7121,7 @@
       "club": 17,
       "position": 3,
       "cost": 7.1,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 73
     }
   },
@@ -7121,7 +7135,7 @@
       "club": 17,
       "position": 3,
       "cost": 5.7,
-      "eventPoints": 4,
+      "eventPoints": 0,
       "totalPoints": 46
     }
   },
@@ -7135,7 +7149,7 @@
       "club": 17,
       "position": 3,
       "cost": 5.2,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 34
     }
   },
@@ -7148,7 +7162,7 @@
       "secondName": "Wanyama",
       "club": 17,
       "position": 3,
-      "cost": 4.8,
+      "cost": 4.7,
       "eventPoints": 0,
       "totalPoints": 1
     }
@@ -7219,7 +7233,7 @@
       "club": 17,
       "position": 3,
       "cost": 5.8,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 42
     }
   },
@@ -7247,7 +7261,7 @@
       "club": 17,
       "position": 3,
       "cost": 7.3,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 24
     }
   },
@@ -7331,7 +7345,7 @@
       "club": 17,
       "position": 2,
       "cost": 4.1,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 14
     }
   },
@@ -7359,7 +7373,7 @@
       "club": 17,
       "position": 3,
       "cost": 7.5,
-      "eventPoints": 2,
+      "eventPoints": 0,
       "totalPoints": 14
     }
   },
@@ -7387,8 +7401,8 @@
       "club": 18,
       "position": 2,
       "cost": 4.3,
-      "eventPoints": 1,
-      "totalPoints": 51
+      "eventPoints": 7,
+      "totalPoints": 58
     }
   },
   {
@@ -7401,8 +7415,8 @@
       "club": 18,
       "position": 2,
       "cost": 4.3,
-      "eventPoints": 1,
-      "totalPoints": 39
+      "eventPoints": 7,
+      "totalPoints": 46
     }
   },
   {
@@ -7429,8 +7443,8 @@
       "club": 18,
       "position": 2,
       "cost": 4.2,
-      "eventPoints": 0,
-      "totalPoints": 29
+      "eventPoints": 6,
+      "totalPoints": 35
     }
   },
   {
@@ -7443,8 +7457,8 @@
       "club": 18,
       "position": 2,
       "cost": 4.4,
-      "eventPoints": 0,
-      "totalPoints": 68
+      "eventPoints": 6,
+      "totalPoints": 74
     }
   },
   {
@@ -7499,8 +7513,8 @@
       "club": 18,
       "position": 4,
       "cost": 6.2,
-      "eventPoints": 2,
-      "totalPoints": 57
+      "eventPoints": 11,
+      "totalPoints": 68
     }
   },
   {
@@ -7513,8 +7527,8 @@
       "club": 18,
       "position": 4,
       "cost": 6.1,
-      "eventPoints": 2,
-      "totalPoints": 87
+      "eventPoints": 1,
+      "totalPoints": 88
     }
   },
   {
@@ -7555,8 +7569,8 @@
       "club": 18,
       "position": 1,
       "cost": 4.9,
-      "eventPoints": 2,
-      "totalPoints": 103
+      "eventPoints": 6,
+      "totalPoints": 109
     }
   },
   {
@@ -7582,9 +7596,9 @@
       "secondName": "Doucouré",
       "club": 18,
       "position": 3,
-      "cost": 5.7,
-      "eventPoints": 2,
-      "totalPoints": 86
+      "cost": 5.6,
+      "eventPoints": 6,
+      "totalPoints": 92
     }
   },
   {
@@ -7597,8 +7611,8 @@
       "club": 18,
       "position": 3,
       "cost": 5.6,
-      "eventPoints": 2,
-      "totalPoints": 48
+      "eventPoints": 1,
+      "totalPoints": 49
     }
   },
   {
@@ -7611,8 +7625,8 @@
       "club": 18,
       "position": 3,
       "cost": 5.3,
-      "eventPoints": 2,
-      "totalPoints": 45
+      "eventPoints": 3,
+      "totalPoints": 48
     }
   },
   {
@@ -7625,7 +7639,7 @@
       "club": 18,
       "position": 3,
       "cost": 4.8,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 25
     }
   },
@@ -7653,8 +7667,8 @@
       "club": 18,
       "position": 3,
       "cost": 4.8,
-      "eventPoints": 2,
-      "totalPoints": 58
+      "eventPoints": 3,
+      "totalPoints": 61
     }
   },
   {
@@ -7667,8 +7681,8 @@
       "club": 18,
       "position": 3,
       "cost": 4.4,
-      "eventPoints": 0,
-      "totalPoints": 27
+      "eventPoints": 1,
+      "totalPoints": 28
     }
   },
   {
@@ -7695,7 +7709,7 @@
       "club": 18,
       "position": 2,
       "cost": 4.8,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 37
     }
   },
@@ -7709,7 +7723,7 @@
       "club": 18,
       "position": 4,
       "cost": 5.8,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 10
     }
   },
@@ -7737,8 +7751,8 @@
       "club": 18,
       "position": 3,
       "cost": 6.2,
-      "eventPoints": 1,
-      "totalPoints": 57
+      "eventPoints": 19,
+      "totalPoints": 76
     }
   },
   {
@@ -7792,9 +7806,9 @@
       "secondName": "Pussetto",
       "club": 18,
       "position": 3,
-      "cost": 4.8,
-      "eventPoints": 0,
-      "totalPoints": 4
+      "cost": 4.7,
+      "eventPoints": 1,
+      "totalPoints": 5
     }
   },
   {
@@ -7808,7 +7822,7 @@
       "position": 2,
       "cost": 4.6,
       "eventPoints": 1,
-      "totalPoints": 60
+      "totalPoints": 61
     }
   },
   {
@@ -7821,8 +7835,8 @@
       "club": 19,
       "position": 2,
       "cost": 4.5,
-      "eventPoints": 1,
-      "totalPoints": 61
+      "eventPoints": 2,
+      "totalPoints": 63
     }
   },
   {
@@ -7877,8 +7891,8 @@
       "club": 19,
       "position": 2,
       "cost": 4.3,
-      "eventPoints": 6,
-      "totalPoints": 50
+      "eventPoints": 2,
+      "totalPoints": 52
     }
   },
   {
@@ -7976,7 +7990,7 @@
       "position": 1,
       "cost": 4.9,
       "eventPoints": 2,
-      "totalPoints": 55
+      "totalPoints": 57
     }
   },
   {
@@ -7989,8 +8003,8 @@
       "club": 19,
       "position": 3,
       "cost": 6.9,
-      "eventPoints": 2,
-      "totalPoints": 33
+      "eventPoints": 11,
+      "totalPoints": 44
     }
   },
   {
@@ -8003,8 +8017,8 @@
       "club": 19,
       "position": 3,
       "cost": 6.6,
-      "eventPoints": 2,
-      "totalPoints": 59
+      "eventPoints": 1,
+      "totalPoints": 60
     }
   },
   {
@@ -8044,9 +8058,9 @@
       "secondName": "Snodgrass",
       "club": 19,
       "position": 3,
-      "cost": 5.2,
-      "eventPoints": 5,
-      "totalPoints": 85
+      "cost": 5.3,
+      "eventPoints": 1,
+      "totalPoints": 86
     }
   },
   {
@@ -8073,8 +8087,8 @@
       "club": 19,
       "position": 3,
       "cost": 4.7,
-      "eventPoints": 4,
-      "totalPoints": 62
+      "eventPoints": 2,
+      "totalPoints": 64
     }
   },
   {
@@ -8087,8 +8101,8 @@
       "club": 19,
       "position": 3,
       "cost": 5,
-      "eventPoints": 1,
-      "totalPoints": 80
+      "eventPoints": 2,
+      "totalPoints": 82
     }
   },
   {
@@ -8129,8 +8143,8 @@
       "club": 19,
       "position": 3,
       "cost": 6,
-      "eventPoints": 6,
-      "totalPoints": 61
+      "eventPoints": 9,
+      "totalPoints": 70
     }
   },
   {
@@ -8171,8 +8185,8 @@
       "club": 19,
       "position": 4,
       "cost": 6.8,
-      "eventPoints": 1,
-      "totalPoints": 86
+      "eventPoints": 9,
+      "totalPoints": 95
     }
   },
   {
@@ -8241,8 +8255,8 @@
       "club": 19,
       "position": 2,
       "cost": 4,
-      "eventPoints": 1,
-      "totalPoints": 2
+      "eventPoints": 2,
+      "totalPoints": 4
     }
   },
   {
@@ -8282,7 +8296,7 @@
       "secondName": "Randolph",
       "club": 19,
       "position": 1,
-      "cost": 4.2,
+      "cost": 4.1,
       "eventPoints": 0,
       "totalPoints": 3
     }
@@ -8296,8 +8310,8 @@
       "secondName": "Soucek",
       "club": 19,
       "position": 3,
-      "cost": 5,
-      "eventPoints": 1,
+      "cost": 4.9,
+      "eventPoints": 0,
       "totalPoints": 5
     }
   },
@@ -8311,8 +8325,8 @@
       "club": 19,
       "position": 3,
       "cost": 6.5,
-      "eventPoints": 1,
-      "totalPoints": 2
+      "eventPoints": 9,
+      "totalPoints": 11
     }
   },
   {
@@ -8325,7 +8339,7 @@
       "club": 20,
       "position": 2,
       "cost": 6.1,
-      "eventPoints": 10,
+      "eventPoints": 0,
       "totalPoints": 99
     }
   },
@@ -8339,7 +8353,7 @@
       "club": 20,
       "position": 2,
       "cost": 5.4,
-      "eventPoints": 6,
+      "eventPoints": 0,
       "totalPoints": 74
     }
   },
@@ -8353,7 +8367,7 @@
       "club": 20,
       "position": 2,
       "cost": 5,
-      "eventPoints": 5,
+      "eventPoints": 0,
       "totalPoints": 75
     }
   },
@@ -8366,8 +8380,8 @@
       "secondName": "Boly",
       "club": 20,
       "position": 2,
-      "cost": 4.7,
-      "eventPoints": 6,
+      "cost": 4.8,
+      "eventPoints": 0,
       "totalPoints": 52
     }
   },
@@ -8381,7 +8395,7 @@
       "club": 20,
       "position": 2,
       "cost": 4.2,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 16
     }
   },
@@ -8395,7 +8409,7 @@
       "club": 20,
       "position": 2,
       "cost": 4.5,
-      "eventPoints": 11,
+      "eventPoints": 0,
       "totalPoints": 64
     }
   },
@@ -8423,7 +8437,7 @@
       "club": 20,
       "position": 4,
       "cost": 7.9,
-      "eventPoints": 5,
+      "eventPoints": 0,
       "totalPoints": 138
     }
   },
@@ -8437,7 +8451,7 @@
       "club": 20,
       "position": 4,
       "cost": 6.2,
-      "eventPoints": 16,
+      "eventPoints": 0,
       "totalPoints": 74
     }
   },
@@ -8451,7 +8465,7 @@
       "club": 20,
       "position": 1,
       "cost": 5.1,
-      "eventPoints": 7,
+      "eventPoints": 0,
       "totalPoints": 108
     }
   },
@@ -8493,7 +8507,7 @@
       "club": 20,
       "position": 3,
       "cost": 5.2,
-      "eventPoints": 3,
+      "eventPoints": 0,
       "totalPoints": 66
     }
   },
@@ -8507,7 +8521,7 @@
       "club": 20,
       "position": 3,
       "cost": 5.4,
-      "eventPoints": 3,
+      "eventPoints": 0,
       "totalPoints": 89
     }
   },
@@ -8535,7 +8549,7 @@
       "club": 20,
       "position": 3,
       "cost": 5.9,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 105
     }
   },
@@ -8577,7 +8591,7 @@
       "club": 20,
       "position": 3,
       "cost": 4.4,
-      "eventPoints": 3,
+      "eventPoints": 0,
       "totalPoints": 67
     }
   },
@@ -8619,7 +8633,7 @@
       "club": 20,
       "position": 3,
       "cost": 5,
-      "eventPoints": 1,
+      "eventPoints": 0,
       "totalPoints": 41
     }
   },
@@ -8702,7 +8716,7 @@
       "secondName": "Giles",
       "club": 20,
       "position": 2,
-      "cost": 4,
+      "cost": 3.9,
       "eventPoints": 0,
       "totalPoints": 0
     }
@@ -8730,7 +8744,7 @@
       "secondName": "Castelo Podence",
       "club": 20,
       "position": 3,
-      "cost": 5.4,
+      "cost": 5.3,
       "eventPoints": 0,
       "totalPoints": 2
     }

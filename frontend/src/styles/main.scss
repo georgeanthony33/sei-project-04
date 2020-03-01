@@ -1,0 +1,52 @@
+* {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.home-page-background {
+  background-image: url('https://www.hireapitch.com/images/List-your-venue.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding-left: 0;
+  margin: 0;
+}
+
+.container.home-page {
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.color-overlay {
+  height: 100vh;
+  width: 100vw;
+  background-color: #5cdb95;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.top-banner {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.user-background {
+  padding: 50px 0;
+  min-height: 100vh;
+}
+
+.kit {
+  height: 200px;
+  width: 200px;
+  clip-path: polygon(0 29%, 31% 1%, 40% 7%, 51% 9%, 61% 8%, 71% 0, 100% 28%, 89% 43%, 79% 36%, 80% 100%, 22% 100%, 22% 35%, 9% 43%);
+  background-color: red;
+  margin: 12px;
+}

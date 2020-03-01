@@ -1,8 +1,26 @@
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
 from django.contrib.auth.hashers import make_password
+from teams.models import Team
+from leagues.models import League
 
 User = get_user_model()
+
+class TeamSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Team
+        fields = '__all__'
+
+class LeagueSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = League
+        fields = '__all__'
+
+class PopulatedTeamSerializer(TeamSerializer):
+
+    leagues = LeagueSerializer(many=True)
 
 class UserSerializer(serializers.ModelSerializer):
 
@@ -29,3 +47,8 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = '__all__'
+
+class PopulatedUserSerializer(UserSerializer):
+
+    teams = PopulatedTeamSerializer(many=True)
+    leagues = LeagueSerializer(many=True)

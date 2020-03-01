@@ -2,8 +2,21 @@ from rest_framework import serializers
 from django.contrib.auth import get_user_model
 from players.models import Player
 from .models import Team
+from leagues.models import League
 
 User = get_user_model()
+
+class LeagueSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = League
+        fields = ('name',)
+
+class ManagerSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = User
+        fields = '__all__'
 
 class PlayerSerializer(serializers.ModelSerializer):
 
@@ -31,6 +44,9 @@ class TeamSerializer(serializers.ModelSerializer):
 
         if len(forwards) != 2:
             raise serializers.ValidationError({'forwards': 'Must select 2 forwards'})
+        
+        if sum(goalkeeper.cost for goalkeeper in goalkeepers) + sum(defender.cost for defender in defenders) + sum(midfielders.cost for midfielders in midfielders) + sum(forwards.cost for forwards in forwards) > 90:
+            raise serializers.ValidationError({'cost': 'You have exceeded the budget'})
 
         data['goalkeepers'] = goalkeepers
         data['defenders'] = defenders
@@ -44,8 +60,10 @@ class TeamSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class PopulatedTeamSerializer(TeamSerializer):
+    
     goalkeepers = PlayerSerializer(many=True)
     defenders = PlayerSerializer(many=True)
     midfielders = PlayerSerializer(many=True)
     forwards = PlayerSerializer(many=True)
-    
+    manager = ManagerSerializer()
+    leagues = LeagueSerializer(many=True)
