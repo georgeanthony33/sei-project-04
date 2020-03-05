@@ -32,6 +32,7 @@ class Team(models.Model):
         blank=True,
         limit_choices_to={'position': 4}
     )
+    kit = models.CharField(max_length=50, default='grey-top')
 
 
     def __str__(self):

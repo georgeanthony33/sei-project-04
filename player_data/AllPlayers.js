@@ -10,7 +10,7 @@ app.get('/players', handleRequest)
 
 async function handleRequest() {
   const response = await axios.get('https://fantasy.premierleague.com/api/bootstrap-static/')
-  const playerNames = response.data.elements.map(function(player) {
+  const allPlayers = response.data.elements.map(function(player) {
     return {
       model: 'players.player',
       pk: player.id,
@@ -26,7 +26,7 @@ async function handleRequest() {
       }
     }
   })
-  const data = JSON.stringify(playerNames, null, 2)
+  const data = JSON.stringify(allPlayers, null, 2)
   fs.writeFileSync('players-seed.json', data)
 }
 

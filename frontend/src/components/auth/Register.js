@@ -50,43 +50,43 @@ class Register extends React.Component {
     console.log(this.state.registerDetails)
     const { first_name, second_name, email, password, password_confirmation, user_image } = this.state.registerDetails
     return (
-      <form className="column is-one-third login-form" onSubmit={this.handleSubmit}>
+      <form className="column login-form" onSubmit={this.handleSubmit}>
 
         <div className="field">
           <div className="control">
-            <input className="input is-rounded event-input is-primary" type="text" name="first_name" value={first_name} onChange={this.handleChange} placeholder="First Name" />
+            <input className="input is-rounded event-input is-link" type="text" name="first_name" value={first_name} onChange={this.handleChange} placeholder="First Name" />
           </div>
         </div>
 
         <div className="field">
           <div className="control">
-            <input className="input is-rounded event-input is-primary" type="text" name="second_name" value={second_name} onChange={this.handleChange} placeholder="Second Name" />
+            <input className="input is-rounded event-input is-link" type="text" name="second_name" value={second_name} onChange={this.handleChange} placeholder="Second Name" />
           </div>
         </div>
 
         <div className="field">
           <div className="control">
-            <input className="input is-rounded event-input is-primary" type="text" name="email" value={email} onChange={this.handleChange} placeholder="Email" />
+            <input className="input is-rounded event-input is-link" type="text" name="email" value={email} onChange={this.handleChange} placeholder="Email" />
           </div>
         </div>
 
         <div className="field">
           <div className="control">
-            <input className="input is-rounded is-primary" type="password" name="password" placeholder="Password" value={password} onChange={this.handleChange} />
+            <input className="input is-rounded is-link" type="password" name="password" placeholder="Password" value={password} onChange={this.handleChange} />
           </div>
         </div>
 
         <div className="field">
           <div className="control">
-            <input className="input is-rounded is-primary" type="password" name="password_confirmation" placeholder="Password Confirmation" value={password_confirmation} onChange={this.handleChange} />
+            <input className="input is-rounded is-link" type="password" name="password_confirmation" placeholder="Password Confirmation" value={password_confirmation} onChange={this.handleChange} />
           </div>
         </div>
 
         <div className="columns is-centered">
-          <div className="column is-two-thirds">
+          <div className="column is-half">
             <div className="field">
               <div className="control">
-                <button type="submit" className="button is-fullwidth has-text-black is-white is-size-5">Register</button>
+                <button type="submit" className="button is-fullwidth has-text-black is-white is-4">Register</button>
               </div>
             </div>
           </div>

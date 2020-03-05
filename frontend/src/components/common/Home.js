@@ -1,11 +1,40 @@
 import React from 'react'
 import Login from '../auth/Login'
 import Register from '../auth/Register'
+import Auth from '../common/Auth'
+import axios from 'axios'
+import { Link, withRouter } from 'react-router-dom'
 
 class Home extends React.Component {
   state = {
     loggedIn: false,
     loginPage: true,
+    userDetails: {
+      first_name: '',
+      second_name: '',
+      email: '',
+      password: '',
+      password_confirmation: '',
+      user_image: '',
+      teams: {
+        teamName: '',
+        teamPoints: '',
+        leagues: []
+      },
+      leagues: [],
+      
+    },
+  }
+
+  getUserData = async (pk) => {
+    try {
+      Auth.getToken()
+      const response = await axios.get(`/api/profile/${pk}`)
+      const userDetails = response.data
+      this.setState({ userDetails })
+    } catch (err) {
+      this.setState({ error: err })
+    }
   }
 
   handleClick = () => {
@@ -13,42 +42,82 @@ class Home extends React.Component {
     this.setState({ loginPage })
   }
 
+  componentDidMount() {
+    this.checkLoggedIn()
+  }
+
+  checkLoggedIn = () => {
+    const loggedIn = Auth.isAuthenticated()
+    this.setState({ loggedIn })
+    if (loggedIn) {
+      const userID = Auth.getPayload().sub
+      this.getUserData(userID)
+    }
+  }
+
   render() {
+    // console.log(this.state.loggedIn)
+    const userID = Auth.getPayload().sub
     return (
-      <section className="hero is-fullheight">
-        <div className="hero-body home-page-background">
-          <div className="container home-page is-paddingless is-marginless">
-            <div className="columns is-centered">
-              <h1 className="title is-1 has-text-white has-text-weight-bold is-family-code">bring.it.home</h1>
+      <div className="homepage-outer-container">
+
+        <div className="color-overlay"></div>
+
+
+        <div className="homepage-inner-container">
+          <div className="title-outer-container">
+            <div className="title-inner-container">
+              <h1 className="home-title">bring.it.home</h1>
               <br />
-            </div>
-            <div className="columns is-centered">
-              {/* {this.state.loggedIn && <UserProfile />} */}
-              {this.state.loginPage
-                ?
-                <Login homeProps={this.props}/>
-                :
-                <Register homeProps={this.props}/>
-              }
-            </div>
-            <div className="columns is-centered">
-              {this.state.loginPage
-                ?
-                <div className="column is-one-third login-form">
-                  <p>Not Registered? Register here.</p>
-                  <button onClick={this.handleClick}>Register</button>
-                </div>
-                :
-                <div className="column is-one-third login-form">
-                  <p>Already Registered? Login here.</p>
-                  <button onClick={this.handleClick}>Login</button>
-                </div>
-              }
+              <h4 className="title is-3 has-text-white has-text-centered home-subtitle">Your very own Fantasy League Football Team Builder</h4>
             </div>
           </div>
+
+          <div className="auth-outer-container">
+          {this.state.loggedIn
+            &&
+            <>
+              <div className="welcome-back">
+                <h4 className="title is-4 has-text-white">
+                  Hey, {this.state.userDetails.first_name}!
+                </h4>
+                <Link to={`/profile/${userID}/`}>
+                  <button className="button is-rounded">Profile</button>
+                </Link>
+              </div>
+            </>
+          }
+          {!this.state.loggedIn && this.state.loginPage
+            &&
+            <div className="inner-auth-container">
+              <Login homeProps={this.props}/>
+            </div>
+          }
+          {!this.state.loggedIn && !this.state.loginPage
+            &&
+            <div className="inner-auth-container">
+              <Register homeProps={this.props}/>
+            </div>
+          }
+          </div>
+          <div className="auth-toggle-container">
+            {!this.state.loggedIn && this.state.loginPage
+              &&
+              <div className="auth-toggle">
+                <p>Not Registered? Click to register.</p>
+                <button className="button is-small toggle-button" onClick={this.handleClick}>Register</button>
+              </div>
+            }
+            {!this.state.loggedIn && !this.state.loginPage
+              &&
+              <div className="auth-toggle">
+                <p>Already Registered? Click to login.</p>
+                <button className="button is-small toggle-button" onClick={this.handleClick}>Login</button>
+              </div>
+            }
+          </div>
         </div>
-        <div className="color-overlay"></div>
-      </section>
+      </div>
     )
   }
 }

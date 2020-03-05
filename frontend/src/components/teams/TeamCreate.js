@@ -4,18 +4,17 @@ import Auth from '../common/Auth'
 import { Link } from 'react-router-dom'
 import NavBar from '../common/NavBar'
 
-// import a from `../../assets/${kit}`
-
-class TeamShow extends React.Component {
+class TeamCreate extends React.Component {
   state = {
+    savedTeam: false,
     teamDetails: {
-      teamName: '',
+      teamName: 'Enter Team Name',
       manager: '',
-      teamPoints: '',
-      goalkeepers: [],
-      defenders: [],
-      midfielders: [],
-      forwards: [],
+      teamPoints: 0,
+      goalkeepers: ['620'],
+      defenders: ['621', '622', '623', '624'],
+      midfielders: ['625', '626', '627', '628'],
+      forwards: ['629', '630'],
       leagues: [],
       kit: ''
     },
@@ -213,7 +212,6 @@ class TeamShow extends React.Component {
       'https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_39-66.png',
       'https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_0_1-66.png'
     ],
-    editMode: false
   }
 
   updateTeamCost = () => {
@@ -228,11 +226,60 @@ class TeamShow extends React.Component {
     return (80 - cost).toFixed(1)
   }
 
+  componentWillUnmount() {
+    if (!this.state.savedTeam) {
+      this.handleDeleteTeam(this.state.teamDetails.id)
+    }
+  }
+
+  handleDeleteTeam = async (id) => {
+    try {
+      await axios.delete(`/api/teams/${id}`, {
+        headers: { Authorization: `Bearer ${Auth.getToken()}` }
+      })
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
+  handleSaveTeam = () => {
+    const teamPK = this.state.teamDetails.id
+    this.setState({ savedTeam: true })
+    this.updateTeam().then(() => this.props.history.push(`/teams/${teamPK}`))
+  }
+
+  handleDiscardTeam = () => {
+    const userPK = Auth.getPayload().sub
+    this.handleDeleteTeam(this.state.teamDetails.id).then(() => this.props.history.push(`/profile/${userPK}`))
+  }
+
   componentDidMount() {
-    const teamPK = this.props.match.params.id
-    this.getTeamData(teamPK)
+    this.createEmptyTeam()
     this.getPlayers()
-    // this.getSinglePlayer(2)
+  }
+
+  createEmptyTeam = async () => {
+    const teamData = {
+      goalkeepers: this.state.teamDetails.goalkeepers,
+      defenders: this.state.teamDetails.defenders,
+      midfielders: this.state.teamDetails.midfielders,
+      forwards: this.state.teamDetails.forwards,
+      teamPoints: this.state.teamDetails.teamPoints,
+      teamName: this.state.teamDetails.teamName
+    }
+    try {
+      const response = await this.postEmptyTeam(teamData)
+      const newTeamID = response.data.id
+      this.getTeamData(newTeamID)
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
+  postEmptyTeam(data) {
+    return axios.post('/api/teams/', data, 
+      { headers: { Authorization: `Bearer ${Auth.getToken()}` } }
+    )
   }
 
   getTeamData = async (pk) => {
@@ -255,42 +302,6 @@ class TeamShow extends React.Component {
     }
   }
 
-  handleEditTeam = () => this.setState({ editMode: true})
-
-  handleSubmitEdit = async () => {
-    const teamDetails = {
-      teamName: this.state.teamDetails.teamName,
-      teamPoints: this.state.teamDetails.teamPoints,
-      goalkeepers: this.state.teamDetails.goalkeepers.map(goalkeeper => goalkeeper.playerID),
-      defenders: this.state.teamDetails.defenders.map(defender => defender.playerID),
-      midfielders: this.state.teamDetails.midfielders.map(midfielder => midfielder.playerID),
-      forwards: this.state.teamDetails.forwards.map(forward => forward.playerID),
-      kit: this.state.teamDetails.kit
-    }
-
-    const teamPK = this.props.match.params.id
-
-    try {
-      await axios.put(`/api/teams/${teamPK}/`, teamDetails, { headers: { Authorization: `Bearer ${Auth.getToken()}` } })
-    } catch (err) {
-      console.log(err)
-    } finally {
-      this.setState({ editMode: false })
-      this.getTeamData(teamPK)
-    }
-  }
-
-  // getSinglePlayer = async (pk) => {
-  //   try {
-  //     const response = await axios.get(`/api/players/${pk}/`)
-  //     const singlePlayerData = response.data
-  //     // this.setState({ players })
-  //     console.log(singlePlayerData)
-  //   } catch (err) {
-  //     this.setState({ error: err })
-  //   }
-  // }
-
   handleDelete = ({ target: { id, value } }) => {
 
     const playerPosition = this.state.positionLookUp[value].position
@@ -308,6 +319,18 @@ class TeamShow extends React.Component {
       teamDetails: {
         ...this.state.teamDetails,
         playerPosition: arrayToUpdate
+      }
+    })
+  }
+
+  handleNameChange = ({ target: { name, value } }) => {
+    console.log(value)
+    const teamName = value
+    this.setState({
+      ...this.state,
+      teamDetails: {
+        ...this.state.teamDetails,
+        teamName
       }
     })
   }
@@ -334,20 +357,7 @@ class TeamShow extends React.Component {
     })
   }
 
-  handleNameChange = ({ target: { name, value } }) => {
-    console.log(value)
-    const teamName = value
-    this.setState({
-      ...this.state,
-      teamDetails: {
-        ...this.state.teamDetails,
-        teamName
-      }
-    })
-  }
-
   handleTeamChange = ({ target: { value } }) => {
-    console.log(value)
     const searchTeam = value
     this.setState({
       ...this.state,
@@ -363,7 +373,7 @@ class TeamShow extends React.Component {
     const playerPosition = this.state.positionLookUp[value].position
 
     if (this.state.teamDetails[this.state.positionLookUp[value].position].every(player => player.playerID <= 619)) return
-
+    
     const playerAlreadyExists = this.state.teamDetails[this.state.positionLookUp[value].position].some(player => player.playerID == id)
     if (playerAlreadyExists) return
 
@@ -372,6 +382,7 @@ class TeamShow extends React.Component {
     ))
 
     emptyPosition.playerID = id
+
     const updatedPositionArray = [...this.state.teamDetails[this.state.positionLookUp[value].position]]
 
     this.setState({
@@ -384,19 +395,6 @@ class TeamShow extends React.Component {
     this.updateTeam()
   }
 
-  handleDeleteTeam = async (event) => {
-    const teamPK = this.props.match.params.id
-    const userPK = Auth.getPayload().sub
-    try {
-      await axios.delete(`/api/teams/${teamPK}`, {
-        headers: { Authorization: `Bearer ${Auth.getToken()}` }
-      })
-      this.props.history.push(`/profile/${userPK}`)
-    } catch (err) {
-      this.props.history.push('/notfound')
-    }
-  }
-
   updateTeam = async () => {
     const teamData = {
       goalkeepers: this.state.teamDetails.goalkeepers.map(goalkeeper => goalkeeper.playerID),
@@ -407,7 +405,7 @@ class TeamShow extends React.Component {
       teamName: this.state.teamDetails.teamName,
       kit: this.state.teamDetails.kit
     }
-    const teamPK = this.props.match.params.id
+    const teamPK = this.state.teamDetails.id
     
     try {
       await axios.put(`/api/teams/${teamPK}/`, teamData, { headers: { Authorization: `Bearer ${Auth.getToken()}` } })
@@ -431,9 +429,10 @@ class TeamShow extends React.Component {
   }
   
   render() {
-    if (!this.state.teamDetails.goalkeepers[0]) return null
-    const { id, teamName, manager, teamPoints, goalkeepers, defenders, midfielders, forwards, kit } = this.state.teamDetails
+    if (!this.state.teamDetails.manager) return null
+    const { id, teamName, manager, teamPoints, goalkeepers, defenders, midfielders, forwards, kit, teamCost } = this.state.teamDetails
     const re = new RegExp(this.state.searchValues.searchName, 'i')
+    console.log(teamCost)
     return (
       <>
       <NavBar />
@@ -442,53 +441,38 @@ class TeamShow extends React.Component {
           <div className="columns">
             <div className="column is-2">
               <div className={this.state.teamDetails.kit}></div>
-              {this.state.editMode
-                &&
-                <div className="field">
-                  <div className="select is-link">
-                    <select name="kit" onChange={this.handleKitChange} value={kit}>
-                      <option value="grey-top">Choose Kit</option>
-                      <option value="red-top">Red</option>
-                      <option value="blue-top">Blue</option>
-                      <option value="yellow-top">Yellow</option>
-                      <option value="purple-top">Purple</option>
-                      <option value="green-top">Green</option>
-                      <option value="orange-top">Orange</option>
-                    </select>
-                  </div>
+              <div className="field">
+                <div className="select is-link">
+                  <select name="kit" onChange={this.handleKitChange} value={kit}>
+                    <option value="grey-top">Choose Kit</option>
+                    <option value="red-top">Red</option>
+                    <option value="blue-top">Blue</option>
+                    <option value="yellow-top">Yellow</option>
+                    <option value="purple-top">Purple</option>
+                    <option value="green-top">Green</option>
+                    <option value="orange-top">Orange</option>
+                  </select>
                 </div>
-              }
+              </div>
             </div>
 
             <div className="column is-7">
               <div className="columns">
                 <div className="column is-6">
-                  {!this.state.editMode
-                    ?
-                    <h2 className="title is-2 has-text-dark">{teamName}</h2>
-                    :
-                    <h2 className="title is-2 has-text-dark">
-                      <input className="input has-background-white has-text-black is-medium is-link" id="team-name-edit" type="text" placeholder={teamName} name="teamName" onChange={this.handleNameChange}/>
-                    </h2>
-                  }
+                  <h2 className="title is-2 has-text-dark">
+                    <input className="input has-background-white has-text-black is-medium is-link" id="team-name-edit" type="text" placeholder={teamName} name="teamName" onChange={this.handleNameChange}/>
+                  </h2>
                 </div>
                 <div className="column is-6">
                   <div className="columns">
                     <div className="column is-half">
-                      {!this.state.editMode
-                        ?
-                        <button className="button has-text-white is-link is-size-6 user-edit-button" onClick={this.handleEditTeam}>
-                          Edit Details
-                        </button>
-                        :
-                        <button className="button has-text-white is-link is-size-6 user-edit-button" onClick={this.handleSubmitEdit}>
-                          Submit Changes
-                        </button>
-                      }
+                      <button className="button has-text-white is-link is-size-6 user-edit-button" onClick={this.handleSaveTeam}>
+                        Save Team
+                      </button>
                     </div>
                     <div className="column is-half">
-                      <button className="button has-text-white is-danger is-size-6 user-edit-button" onClick={this.handleDeleteTeam}>
-                        Delete Team
+                      <button className="button has-text-white is-danger is-size-6 user-edit-button" onClick={this.handleDiscardTeam}>
+                        Discard Team
                       </button>
                     </div>
                   </div>
@@ -505,7 +489,7 @@ class TeamShow extends React.Component {
                       <div className="tags has-addons">
                         <span className="tag is-link is-medium">Gameweek Points</span>
                         <span className="tag is-dark has-text-white is-medium">
-                          ★&nbsp;
+                          ★&nbsp;&nbsp;
                           {
                             this.state.teamDetails.goalkeepers[0].eventPoints
                             + this.state.teamDetails.defenders.reduce((totalPoints, player) => totalPoints + player.eventPoints, 0)
@@ -559,6 +543,55 @@ class TeamShow extends React.Component {
               </div>
               
             </div>
+
+            {/* <div className="column is-5">
+              <h2 className="title is-2 has-text-dark">
+                <input className="input has-background-white has-text-black is-medium is-link" id="team-name-edit" type="text" placeholder={teamName} name="teamName" onChange={this.handleNameChange}/>
+              </h2>
+              <div className="field is-grouped is-grouped-multiline">
+                <div className="control">
+                  
+                  <div className="tags has-addons">
+                    <span className="tag is-link is-medium">Gameweek Points</span>
+                    <span className="tag is-dark has-text-white is-medium">
+                      ★&nbsp;
+                      {
+                        this.state.teamDetails.goalkeepers[0].eventPoints
+                        + this.state.teamDetails.defenders.reduce((totalPoints, player) => totalPoints + player.eventPoints, 0)
+                        + this.state.teamDetails.midfielders.reduce((totalPoints, player) => totalPoints + player.eventPoints, 0)
+                        + this.state.teamDetails.forwards.reduce((totalPoints, player) => totalPoints + player.eventPoints, 0)
+                      }
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="field is-grouped is-grouped-multiline">
+                <div className="control">
+                  <div className="tags has-addons">
+                    <span className="tag is-link is-medium">Total Points</span>
+                    <span className="tag is-dark has-text-white is-medium">
+                      ⭐️&nbsp;
+                      {
+                        this.state.teamDetails.goalkeepers[0].totalPoints
+                        + this.state.teamDetails.defenders.reduce((totalPoints, player) => totalPoints + player.totalPoints, 0)
+                        + this.state.teamDetails.midfielders.reduce((totalPoints, player) => totalPoints + player.totalPoints, 0)
+                        + this.state.teamDetails.forwards.reduce((totalPoints, player) => totalPoints + player.totalPoints, 0)
+                      }
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="column is-2">
+              <br />
+              <button className="button has-text-white is-link is-size-6 user-edit-button" onClick={this.handleSaveTeam}>
+                Save Team
+              </button>
+              <button className="button has-text-white is-danger is-size-6 user-edit-button" onClick={this.handleDiscardTeam}>
+                Discard Team
+              </button>
+            </div> */}
+
             <div className="column is-3">
               <figure className="image is-128x128">
                 <Link to={`/profile/${manager.id}`} >
@@ -591,7 +624,9 @@ class TeamShow extends React.Component {
                   </figure>
                   <p className="heading" id={goalkeepers[0].playerID > 619 ? 'removed': ''}>{goalkeepers[0].secondName}</p>
                   <p className="heading" id={goalkeepers[0].playerID > 619 ? 'removed': ''}>&nbsp; &nbsp; ⭐️{goalkeepers[0].totalPoints}
-                    <li value="1" id={goalkeepers[0].playerID} onClick={this.handleDelete} className="delete"></li>
+                    <li value="1" id={goalkeepers[0].playerID}
+                    onClick={this.handleDelete}
+                    className="delete"></li>
                   </p>
                 </div>
               </div>
@@ -610,7 +645,9 @@ class TeamShow extends React.Component {
                       
                     </p>
                     <p className="heading" id={defender.playerID > 619 ? 'removed': ''}>&nbsp; &nbsp; ⭐️{defender.totalPoints}
-                      <li value="2" id={defender.playerID} onClick={this.handleDelete} className="delete"></li>
+                      <li value="2" id={defender.playerID}
+                      onClick={this.handleDelete}
+                      className="delete"></li>
                     </p>
                   </div>
                 </div>
@@ -631,7 +668,9 @@ class TeamShow extends React.Component {
                       
                     </p>
                     <p className="heading" id={midfielder.playerID > 619 ? 'removed': ''}>&nbsp; &nbsp; ⭐️{midfielder.totalPoints}
-                      <li value="3" id={midfielder.playerID} onClick={this.handleDelete} className="delete"></li>
+                      <li value="3" id={midfielder.playerID}
+                      onClick={this.handleDelete}
+                      className="delete"></li>
                     </p>
                   </div>
                 </div>
@@ -652,7 +691,9 @@ class TeamShow extends React.Component {
                       
                     </p>
                     <p className="heading" id={forward.playerID > 619 ? 'removed': ''}>&nbsp; &nbsp; ⭐️{forward.totalPoints}
-                      <li value="4" id={forward.playerID} onClick={this.handleDelete} className="delete"></li>
+                      <li value="4" id={forward.playerID}
+                      onClick={this.handleDelete}
+                      className="delete"></li>
                     </p>
                   </div>
                 </div>
@@ -742,4 +783,4 @@ class TeamShow extends React.Component {
   }
 }
 
-export default TeamShow
+export default TeamCreate

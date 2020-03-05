@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework.status import HTTP_404_NOT_FOUND, HTTP_201_CREATED, HTTP_422_UNPROCESSABLE_ENTITY, HTTP_204_NO_CONTENT, HTTP_202_ACCEPTED, HTTP_401_UNAUTHORIZED
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from .models import Team
-from .serializers import TeamSerializer, PopulatedTeamSerializer
+from .serializers import TeamSerializer, PopulatedTeamSerializer, PlayerSerializer
 
 class TeamListView(APIView):
 

@@ -33,31 +33,31 @@ class Login extends React.Component {
     console.log(this.props.homeProps)
     const { email, password } = this.state.loginDetails
     return (
-      <form className="column is-one-third login-form" onSubmit={this.handleSubmit}>
+      <form className="column login-form" onSubmit={this.handleSubmit}>
 
         <div className="field invisible">
           <div className="control">
-            <input className="input is-rounded event-input is-primary" type="text"/>
+            <input className="input is-rounded event-input is-link" type="text"/>
           </div>
         </div>
 
         <div className="field">
           <div className="control">
-            <input className="input is-rounded event-input is-primary" type="text" name="email" value={email} onChange={this.handleChange} placeholder="Email" />
+            <input className="input is-rounded event-input is-link" type="text" name="email" value={email} onChange={this.handleChange} placeholder="Email" />
           </div>
         </div>
 
         <div className="field">
           <div className="control">
-            <input className="input is-rounded is-primary" type="password" name="password" placeholder="Password" value={password} onChange={this.handleChange} />
+            <input className="input is-rounded is-link" type="password" name="password" placeholder="Password" value={password} onChange={this.handleChange} />
           </div>
         </div>
 
         <div className="columns is-centered">
-          <div className="column is-two-thirds">
+          <div className="column is-half">
             <div className="field">
               <div className="control">
-                <button type="submit" className="button is-fullwidth has-text-black is-white is-size-5">Login</button>
+                <button type="submit" className="button is-fullwidth has-text-black is-white is-4">Login</button>
               </div>
             </div>
           </div>
@@ -65,13 +65,13 @@ class Login extends React.Component {
 
         <div className="field invisible">
           <div className="control">
-            <input className="input is-rounded event-input is-primary" type="text"/>
+            <input className="input is-rounded event-input is-link" type="text"/>
           </div>
         </div>
 
         <div className="field invisible">
           <div className="control">
-            <input className="input is-rounded event-input is-primary" type="text"/>
+            <input className="input is-rounded event-input is-link" type="text"/>
           </div>
         </div>
         

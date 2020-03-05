@@ -8734,5 +8734,149 @@
       "eventPoints": 0,
       "totalPoints": 2
     }
+  },
+  {
+    "model": "players.player",
+    "pk": 620,
+    "fields": {
+      "playerID": 620,
+      "firstName": "removed",
+      "secondName": "removed",
+      "club": 21,
+      "position": 1,
+      "cost": 0,
+      "eventPoints": 0,
+      "totalPoints": 0
+    }
+  },{
+    "model": "players.player",
+    "pk": 621,
+    "fields": {
+      "playerID": 621,
+      "firstName": "removed",
+      "secondName": "removed",
+      "club": 21,
+      "position": 2,
+      "cost": 0,
+      "eventPoints": 0,
+      "totalPoints": 0
+    }
+  },{
+    "model": "players.player",
+    "pk": 622,
+    "fields": {
+      "playerID": 622,
+      "firstName": "removed",
+      "secondName": "removed",
+      "club": 21,
+      "position": 2,
+      "cost": 0,
+      "eventPoints": 0,
+      "totalPoints": 0
+    }
+  },{
+    "model": "players.player",
+    "pk": 623,
+    "fields": {
+      "playerID": 623,
+      "firstName": "removed",
+      "secondName": "removed",
+      "club": 21,
+      "position": 2,
+      "cost": 0,
+      "eventPoints": 0,
+      "totalPoints": 0
+    }
+  },{
+    "model": "players.player",
+    "pk": 624,
+    "fields": {
+      "playerID": 624,
+      "firstName": "removed",
+      "secondName": "removed",
+      "club": 21,
+      "position": 2,
+      "cost": 0,
+      "eventPoints": 0,
+      "totalPoints": 0
+    }
+  },{
+    "model": "players.player",
+    "pk": 625,
+    "fields": {
+      "playerID": 625,
+      "firstName": "removed",
+      "secondName": "removed",
+      "club": 21,
+      "position": 3,
+      "cost": 0,
+      "eventPoints": 0,
+      "totalPoints": 0
+    }
+  },{
+    "model": "players.player",
+    "pk": 626,
+    "fields": {
+      "playerID": 626,
+      "firstName": "removed",
+      "secondName": "removed",
+      "club": 21,
+      "position": 3,
+      "cost": 0,
+      "eventPoints": 0,
+      "totalPoints": 0
+    }
+  },{
+    "model": "players.player",
+    "pk": 627,
+    "fields": {
+      "playerID": 627,
+      "firstName": "removed",
+      "secondName": "removed",
+      "club": 21,
+      "position": 3,
+      "cost": 0,
+      "eventPoints": 0,
+      "totalPoints": 0
+    }
+  },{
+    "model": "players.player",
+    "pk": 628,
+    "fields": {
+      "playerID": 628,
+      "firstName": "removed",
+      "secondName": "removed",
+      "club": 21,
+      "position": 3,
+      "cost": 0,
+      "eventPoints": 0,
+      "totalPoints": 0
+    }
+  },{
+    "model": "players.player",
+    "pk": 629,
+    "fields": {
+      "playerID": 629,
+      "firstName": "removed",
+      "secondName": "removed",
+      "club": 21,
+      "position": 4,
+      "cost": 0,
+      "eventPoints": 0,
+      "totalPoints": 0
+    }
+  },{
+    "model": "players.player",
+    "pk": 630,
+    "fields": {
+      "playerID": 630,
+      "firstName": "removed",
+      "secondName": "removed",
+      "club": 21,
+      "position": 4,
+      "cost": 0,
+      "eventPoints": 0,
+      "totalPoints": 0
+    }
   }
 ]

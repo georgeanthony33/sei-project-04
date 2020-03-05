@@ -1,28 +1,104 @@
 * {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Oxanium', cursive;
 }
 
-.home-page-background {
-  background-image: url('https://www.hireapitch.com/images/List-your-venue.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  padding-left: 0;
-  margin: 0;
-}
-
-.container.home-page {
-  z-index: 1;
-  padding: 0;
-  margin: 0;
+.homepage-outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: bottom url('../assets/soccer-field-drawing-22.png');
+  background-repeat: repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
 }
 
 .color-overlay {
   height: 100vh;
   width: 100vw;
-  background-color: #5cdb95;
-  opacity: 0.5;
+  background-color: hsl(217, 65%, 23%);
+  opacity: 0.85;
   position: absolute;
+}
+
+.homepage-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.title-outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 600px;
+}
+
+.title-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 600px;
+  z-index: 1;
+  letter-spacing: 3px;
+}
+
+.home-title {
+  letter-spacing: 4px;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  font-weight: 900;
+}
+
+.auth-outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  height: 325px;
+  width: 325px;
+}
+
+div.welcome-back {
+  text-align: center;
+  z-index: 3;
+  background-color: hsla(217, 64%, 23%, 0.836);
+  min-width: 250px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  padding: 20px 30px;
+  border: white 3px solid;
+  border-radius: 5px;
+}
+
+.auth-inner-container {
+  width: 100%;
+}
+
+.auth-toggle-container {
+  z-index: 3;
+}
+
+.auth-toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+}
+
+.toggle-button {
+  margin-top: 5px;
 }
 
 .invisible {
@@ -35,18 +111,315 @@
 
 .top-banner {
   padding-top: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 25px;
+  background-color: hsl(0, 0%, 96%);
+  color: black;
+  border-top: hsl(217, 71%, 53%) solid 5px;
+  border-bottom: hsl(217, 71%, 53%) solid 5px;
 }
 
 .user-background {
   padding: 50px 0;
-  min-height: 100vh;
+  height: fit-content;
+  min-height: 450px;
 }
 
-.kit {
-  height: 200px;
-  width: 200px;
-  clip-path: polygon(0 29%, 31% 1%, 40% 7%, 51% 9%, 61% 8%, 71% 0, 100% 28%, 89% 43%, 79% 36%, 80% 100%, 22% 100%, 22% 35%, 9% 43%);
-  background-color: red;
-  margin: 12px;
+article.panel.user-panel {
+  height: 400px;
+}
+
+.team-container {
+  background-image: url('https://fantasy.premierleague.com/static/media/pitch.6892d4e8.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1000px 1000px;
+  margin: 0;
+  width: 500px;
+  height: 700px;
+  border: solid 5px hsl(217, 71%, 53%);
+  border-radius: 10px;
+}
+
+.negative-margin {
+  margin-top: -17px;
+}
+
+.more-negative-margin {
+  margin-top: -25px;
+}
+
+.user-team {
+  padding: 20px;
+}
+
+a > li {
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.delete {
+  bottom: 3px;
+  left: 5px;
+}
+
+.team-background {
+  max-width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.has-margin {
+  margin: 0px 30px;
+}
+
+div.no-padding {
+  padding: 0;
+}
+
+p#removed  {
+  visibility: hidden;
+}
+
+div#removed  {
+  background-color: rgb(83, 83, 83);
+  border: black 2px;
+  opacity: 0.8;
+}
+
+figure.image.is-64x64.scaled {
+  width: 120px;
+  transform: scale(0.5, 0.5);
+  margin-bottom: 40px;
+}
+
+.small-scaled {
+  transform: scale(0.8, 0.8);
+  bottom: 8px;
+}
+
+.goalkeeper {
+  margin: 10px;
+}
+
+div.level-item > div > p.heading {
+  background-color: #1a3f2b;
+  opacity: 0.9;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 900;
+  border-radius: 5px;
+  height: 20px;
+  padding: 2px 0;
+}
+
+li.delete {
+  bottom: 100px;
+  left: -70px;
+}
+
+#points-field {
+  margin-bottom: 5px;
+}
+
+div.tags.has-addons > span.tag.is-dark {
+  width: 80px;
+}
+
+span.tag:not(body):nth-child(1) {
+  justify-content: left;
+  width: 170px;
+}
+
+span.tag:not(body):nth-child(2) {
+  justify-content: flex-end;
+  // width: 200px;
+}
+
+article.panel {
+  overflow: scroll;
+  height: 700px;
+  border: solid 5px hsl(217, 71%, 53%);
+  border-radius: 10px;
+}
+
+#root > div.hero.has-background-dark.is-fullheight.user-background > div > div.column.is-3.has-background-dark.no-padding.has-margin > article > p.panel-heading {
+  margin-top: -5px;
+}
+
+nav.level {
+  z-index: 2;
+}
+
+#root > div.hero.has-background-dark.is-fullheight.user-background > div > div.column.is-3.has-background-dark.no-padding.has-margin > article > div:nth-child(4) > div > div > select{
+  max-width: none;
+  width: 100%;
+}
+
+#root > div.hero.has-background-dark.is-fullheight.user-background > div > div.column.is-3.has-background-dark.no-padding.has-margin > article > div:nth-child(4) > div > div{
+  max-width: none;
+  width: 100%;
+}
+
+div.tags.has-addons > span.tag.is-light {
+  border: 2px solid hsl(217, 71%, 53%);
+}
+
+.user-team-name {
+  margin-left: 20px;
+}
+
+#user-team-points {
+  padding-left: 0;
+}
+
+#user-details {
+  width: 400px;
+}
+
+p.panel-heading {
+  border-radius: 0;
+}
+
+.user-edit-button {
+  margin-bottom: 24px;
+  width: 140px;
+}
+
+.user-delete-button {
+  width: 140px;
+}
+
+#user-details-edit {
+  width: 405px;
+  transform: scale(1.1, 1.1);
+  border: 2px solid hsl(217, 71%, 53%);
+}
+
+#root > div.top-banner > div > div > div.column.is-3 > div > div > div > span.tag.is-link.is-medium{
+  margin-top: 10px;
+  width: fit-content;
+}
+
+#root > div.top-banner > div > div > div.column.is-3 > div > div > div > span.tag.is-dark.has-text-white.is-medium{
+  margin-top: 10px;
+  width: fit-content;
+  max-width: 220px;
+}
+
+#root > div.top-banner > div > div > div.column.is-3 > figure {
+  margin: 0 auto;
+}
+
+#root > div.top-banner > div > div > div.column.is-3 > figure > img {
+  width: 128px;
+  margin: 0 auto;
+}
+
+#root > div.top-banner > div > div > div.column.is-3 > div {
+  margin: 0 auto;
+}
+
+#root > div.top-banner > div > div > div.column.is-3 > div > div {
+  margin: 0 auto;
+}
+
+button.is-rounded.add-player-button{
+  padding: 0 5px;
+}
+
+.red-top {
+  height: 110px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../assets/red-top.png');
+  margin-bottom: 10px;
+}
+
+.orange-top {
+  height: 110px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../assets/orange-top.png');
+  margin-bottom: 10px;
+}
+
+.yellow-top {
+  height: 110px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../assets/yellow-top.png');
+  margin-bottom: 10px;
+}
+
+.green-top {
+  height: 110px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../assets/green-top.png');
+  margin-bottom: 10px;
+}
+
+.blue-top {
+  height: 110px;
+  width: 150px;
+  background-image: url('../assets/blue-top.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.purple-top {
+  height: 110px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../assets/purple-top.png');
+  margin-bottom: 10px;
+}
+
+.grey-top {
+  height: 110px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../assets/grey-top.png');
+  margin-bottom: 10px;
+}
+
+#root > div.top-banner > div > div > div:nth-child(1) {
+  padding-bottom: 0;
+}
+
+#team-name-edit {
+  max-width: 400px;
+  height: 45px;
+}
+
+div.columns.card.card-border.user-team.is-marginless.has-background-light{
+  border-bottom: hsl(0, 0%, 21%) 1px solid;
+}
+
+div.columns.card.card-border.user-team.is-marginless.has-background-light:hover{
+  border: hsl(217, 71%, 53%) solid 2px;
+}
+
+#root > div.hero.has-background-dark.user-background > div > div.column.is-10.has-background-dark > article > div > div {
+  padding-bottom: 0;
+}
+
+#manager-margin {
+  margin-bottom: 30px;
+}
+
+#root > div.top-banner > div > div > div.column.is-2 > input {
+  margin-top: 10px;
+}
+
+.manager-image {
+  padding-top: 5px;
 }
