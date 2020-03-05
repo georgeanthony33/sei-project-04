@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from .views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/players/', include('players.urls')),
     path('api/teams/', include('teams.urls')),
     path('api/leagues/', include('leagues.urls')),
-    path('api/', include('jwt_auth.urls'))
+    path('api/', include('jwt_auth.urls')),
+    path('', index)
 ]

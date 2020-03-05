@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ab58aa1.chunk.css",
+    "main.js": "/static/js/main.a469e70e.chunk.js",
+    "main.js.map": "/static/js/main.a469e70e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3a02ae19.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3a02ae19.js.map",
+    "static/css/2.5dabca3a.chunk.css": "/static/css/2.5dabca3a.chunk.css",
+    "static/js/2.5a64eb88.chunk.js": "/static/js/2.5a64eb88.chunk.js",
+    "static/js/2.5a64eb88.chunk.js.map": "/static/js/2.5a64eb88.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4e8c14e14ad736d625d3d22ad607c649.js": "/precache-manifest.4e8c14e14ad736d625d3d22ad607c649.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.5dabca3a.chunk.css.map": "/static/css/2.5dabca3a.chunk.css.map",
+    "static/css/main.0ab58aa1.chunk.css.map": "/static/css/main.0ab58aa1.chunk.css.map",
+    "static/js/2.5a64eb88.chunk.js.LICENSE.txt": "/static/js/2.5a64eb88.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/static/media/soccer-field-drawing-22.175e330a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a02ae19.js",
+    "static/css/2.5dabca3a.chunk.css",
+    "static/js/2.5a64eb88.chunk.js",
+    "static/css/main.0ab58aa1.chunk.css",
+    "static/js/main.a469e70e.chunk.js"
+  ]
+}
