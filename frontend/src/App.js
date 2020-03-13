@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import 'bulma'
-import Notifications, {notify} from 'react-notify-toast'
+import Notifications, { notify } from 'react-notify-toast'
 
 import Home from './components/common/Home'
 import UserProfile from './components/auth/UserProfile'

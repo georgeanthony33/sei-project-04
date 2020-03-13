@@ -75,7 +75,7 @@
     ],
     "semi": [
       "error",
-      "always"
+      "never"
     ],
     "react/prop-types": [
       0

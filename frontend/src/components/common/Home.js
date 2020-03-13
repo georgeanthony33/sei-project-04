@@ -21,9 +21,9 @@ class Home extends React.Component {
         teamPoints: '',
         leagues: []
       },
-      leagues: [],
+      leagues: []
       
-    },
+    }
   }
 
   getUserData = async (pk) => {
@@ -67,14 +67,14 @@ class Home extends React.Component {
         <div className="homepage-inner-container">
           <div className="title-outer-container">
             <div className="title-inner-container">
-              <h1 className="home-title">bring.it.home</h1>
+              <h1 className="home-title">Bring It Home</h1>
               <br />
               <h4 className="title is-3 has-text-white has-text-centered home-subtitle">Your very own Fantasy League Football Team Builder</h4>
             </div>
           </div>
 
           <div className="auth-outer-container">
-          {this.state.loggedIn
+            {this.state.loggedIn
             &&
             <>
               <div className="welcome-back">
@@ -86,19 +86,19 @@ class Home extends React.Component {
                 </Link>
               </div>
             </>
-          }
-          {!this.state.loggedIn && this.state.loginPage
+            }
+            {!this.state.loggedIn && this.state.loginPage
             &&
             <div className="inner-auth-container">
               <Login homeProps={this.props}/>
             </div>
-          }
-          {!this.state.loggedIn && !this.state.loginPage
+            }
+            {!this.state.loggedIn && !this.state.loginPage
             &&
             <div className="inner-auth-container">
               <Register homeProps={this.props}/>
             </div>
-          }
+            }
           </div>
           <div className="auth-toggle-container">
             {!this.state.loggedIn && this.state.loginPage
@@ -122,4 +122,4 @@ class Home extends React.Component {
   }
 }
 
- export default Home
+export default Home
