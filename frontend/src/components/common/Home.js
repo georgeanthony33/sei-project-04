@@ -66,7 +66,7 @@ class Home extends React.Component {
         <div className="homepage-inner-container">
           <div className="title-outer-container">
             <div className="title-inner-container">
-              <h1 className="home-title">Bring It Home</h1>
+              <h1 className="home-title">Bring.it.Home</h1>
               <br />
               <h4 className="title is-3 has-text-white has-text-centered home-subtitle">Your very own Fantasy League Football Team Builder</h4>
             </div>

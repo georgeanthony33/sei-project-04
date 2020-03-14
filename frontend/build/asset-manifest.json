@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ab58aa1.chunk.css",
-    "main.js": "/static/js/main.6f858407.chunk.js",
-    "main.js.map": "/static/js/main.6f858407.chunk.js.map",
+    "main.css": "/static/css/main.de63bd70.chunk.css",
+    "main.js": "/static/js/main.d924f3bb.chunk.js",
+    "main.js.map": "/static/js/main.d924f3bb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3a02ae19.js",
     "runtime-main.js.map": "/static/js/runtime-main.3a02ae19.js.map",
     "static/css/2.5dabca3a.chunk.css": "/static/css/2.5dabca3a.chunk.css",
     "static/js/2.5a64eb88.chunk.js": "/static/js/2.5a64eb88.chunk.js",
     "static/js/2.5a64eb88.chunk.js.map": "/static/js/2.5a64eb88.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b698f2abe63f00b3a3b1b36416a76a98.js": "/precache-manifest.b698f2abe63f00b3a3b1b36416a76a98.js",
+    "precache-manifest.3840276713e4b38c49730a048251e9d9.js": "/precache-manifest.3840276713e4b38c49730a048251e9d9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.5dabca3a.chunk.css.map": "/static/css/2.5dabca3a.chunk.css.map",
-    "static/css/main.0ab58aa1.chunk.css.map": "/static/css/main.0ab58aa1.chunk.css.map",
+    "static/css/main.de63bd70.chunk.css.map": "/static/css/main.de63bd70.chunk.css.map",
     "static/js/2.5a64eb88.chunk.js.LICENSE.txt": "/static/js/2.5a64eb88.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/static/media/soccer-field-drawing-22.175e330a.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.3a02ae19.js",
     "static/css/2.5dabca3a.chunk.css",
     "static/js/2.5a64eb88.chunk.js",
-    "static/css/main.0ab58aa1.chunk.css",
-    "static/js/main.6f858407.chunk.js"
+    "static/css/main.de63bd70.chunk.css",
+    "static/js/main.d924f3bb.chunk.js"
   ]
 }
