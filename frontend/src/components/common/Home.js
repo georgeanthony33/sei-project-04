@@ -56,7 +56,6 @@ class Home extends React.Component {
   }
 
   render() {
-    // console.log(this.state.loggedIn)
     const userID = Auth.getPayload().sub
     return (
       <div className="homepage-outer-container">
