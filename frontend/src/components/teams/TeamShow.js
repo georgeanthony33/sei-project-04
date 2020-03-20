@@ -362,17 +362,17 @@ class TeamShow extends React.Component {
 
     const playerPosition = this.state.positionLookUp[value].position
 
-    if (this.state.teamDetails[this.state.positionLookUp[value].position].every(player => player.playerID <= 619)) return
+    if (this.state.teamDetails[playerPosition].every(player => player.playerID <= 619)) return
 
-    const playerAlreadyExists = this.state.teamDetails[this.state.positionLookUp[value].position].some(player => player.playerID == id)
+    const playerAlreadyExists = this.state.teamDetails[playerPosition].some(player => player.playerID == id)
     if (playerAlreadyExists) return
 
-    const emptyPosition = this.state.teamDetails[this.state.positionLookUp[value].position].find(player => (
+    const emptyPosition = this.state.teamDetails[playerPosition].find(player => (
       player.playerID > 619
     ))
 
     emptyPosition.playerID = id
-    const updatedPositionArray = [...this.state.teamDetails[this.state.positionLookUp[value].position]]
+    const updatedPositionArray = [...this.state.teamDetails[playerPosition]]
 
     this.setState({
       ...this.state,
