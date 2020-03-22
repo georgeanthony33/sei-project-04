@@ -9,22 +9,24 @@ This is my fourth project of the General Assembly Software Engineering Immersive
 * From the project root folder, enter the following commands into the terminal:
 
 ```
-<!— To install all the packages listed in the package.json: —> $ yarn 
+<!— To install all the packages listed in the package.json: —>
+$ yarn 
 
-<!- Navigate into the shell -> $ pipenv shell
+<!- Navigate into the shell ->
+$ pipenv shell
 
-<!— Run the front-end app : —> $ python manage.py runserver
+<!— Run the front-end app: —>
+$ python manage.py runserver
 
-<!— Run the front-end app : —> $ yarn start
+<!— Run the front-end app: —>
+$ yarn start
 
 <!— Check the console for any issues and if there are any then check the package.json for any missing dependencies —>
-
-<!- Navigate to http://localhost:4000/>
 ```
 
 ## Deployment
 
-The game is deployed on Heroku and can be found [here](bring-it-home.herokuapp.com).
+The game is deployed on Heroku and can be found here: https://bring-it-home.herokuapp.com/
 
 ## Technologies Used
 
