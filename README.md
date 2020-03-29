@@ -155,6 +155,12 @@ def put(self, request, **kwargs):
     return Response(updated_league.errors, status=HTTP_422_UNPROCESSABLE_ENTITY)
 ```
 
+### Key Learnings
+
+* Building this app has broadened my awareness of how apps could be regularly updated in line with real-world events. Setting functions so that they execute according to a schedule opens up many possibilities for my app in the future.
+* Due to the intricacy of the leagues controllers, I examined the serializers through several control.logs throughout each function to understand exactly how they work, the data types they produce and the techniques required to extract and manipulate data on objects stored in the PostgreSQL database.
+* Setting up the back-end required very little heavy lifting in terms of code due to the power of Django and its ability to build a back-end skeleton for you through Terminal commands. From the perspective of initial setup speed, this differentiates Django from Express where the initial setup is more manual.
+
 ### Future Features
 
 * At the moment, points for players and teams are fed into the app through the seeds file, which is built using the secondary Express seed-file-writer app - a function which currently needs to be manually called. In order to maintain up to date player data and points, there are two possible approaches that could be taken:
